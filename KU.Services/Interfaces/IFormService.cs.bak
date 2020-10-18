@@ -1,0 +1,54 @@
+﻿using KU.Repositories.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace KU.Services.Interfaces
+{
+    public interface IFormService
+    {
+        // user module begin
+        IEnumerable<ApplicationUsers> GetAllIncludedData();
+        IEnumerable<ApplicationUsers> GetUser(string UserName, string Password);
+
+        IEnumerable<AspNetUsers> CheckUserID(string UserName, string Password);
+        IEnumerable<AspNetUsers> CheckToken(string token);
+
+        // user module end
+        IEnumerable<SavedFormViewModel> GetAllSavedForms();
+        IEnumerable<Template> GetAllTemplates();
+        IEnumerable<SavedFormViewModel> GetSavedFormByID(Int32 TemplateID, Int32 SavedFormID, Int32 orderby, Int32 sortorder ,Int32 pagesize, Int32 pagenumber, string filter);
+        
+
+        IEnumerable<FormAttributeValue> GetFormByID(Int32 SavedFormID);
+         // IEnumerable<SavedFormViewModel> GetFormByID(Int32 TemplateID, Int32 SavedFormID);
+
+        IEnumerable <FormAttribute> GetAttributeName(Int32 templateid, Int32 savedFormID);
+        IEnumerable<FormAttribute> GetAttributeID(Int32 templateid, Int32 SectionID, string AttributeName);
+
+        IEnumerable<Questionnaire3> GetSampleID(Int32 SampleID);
+              IEnumerable<Questionnaire2> GetSampleID2(Int32 SampleID);
+  //      IEnumerable<Questionnaire2section> GetSampleID2sec(Int32 SampleID);
+
+    IEnumerable<Questionnaire4> GetSampleID4(Int32 SampleID);
+        IEnumerable<Questionnaire5> GetSampleID5(Int32 SampleID);
+        IEnumerable<Questionnaire6> GetSampleID6(Int32 SampleID);
+        IEnumerable<Questionnaire7> GetSampleID7(Int32 SampleID);
+        IEnumerable<Questionnaire8> GetSampleID8(Int32 SampleID);
+       
+        IEnumerable<Questionnaire1> GetSampleID1(Int32 SampleID);
+        IEnumerable<TotalRecords> GetTotal(Int32 TemplateID, Int32 PageSize, String SearchStr);
+
+
+        long InsertSavedForm(SavedFormViewModel model );
+        bool InsertFormAttributeValues(List<FormAttributeValueViewModel> model);
+        long UpdateSavedForm(SavedFormViewModel model);
+
+
+        long InsertFormAttributeValue(FormAttributeValueViewModel model);
+        long UpdateFormAttributeValue(FormAttributeValueViewModel model);
+        bool UpdateFormAttributeValues(List<FormAttributeValueViewModel> model);
+
+       
+    }
+}

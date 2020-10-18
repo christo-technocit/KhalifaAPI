@@ -1,0 +1,7 @@
+﻿namespace KU.Services.ViewModels
+{
+    //public class UserViewModel
+    //{
+    //    public object Roles { get; internal set; }
+    //}
+}

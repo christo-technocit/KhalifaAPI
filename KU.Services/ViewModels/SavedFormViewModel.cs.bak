@@ -1,0 +1,23 @@
+﻿using System;
+
+namespace KU.Services.Interfaces
+{
+    public class SavedFormViewModel
+    {
+        //public ApplicationIdentity  SavedFormID  { get; set; }
+        public long SavedFormID { get; set; }
+
+        public long TemplateID { get; set; }
+
+        public string SavedFormName { get; set; }
+
+        public long CreatedBy { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+
+        public long? UpdatedBy { get; set; }
+
+        public DateTime? UpdateDate { get; set; }
+    }
+ 
+}

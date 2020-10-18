@@ -1,0 +1,2023 @@
+2020-05-06T16:42:39.6303043+04:00 80000022-0006-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/   (ca22a1cb)
+2020-05-06T16:42:41.8240989+04:00 80000022-0006-fd00-b63f-84710c7967bb [INF] Request finished in 2172.9617ms 301  (791a596a)
+2020-05-06T16:42:41.9653964+04:00 80000035-0005-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/index.html   (ca22a1cb)
+2020-05-06T16:42:42.2952765+04:00 80000035-0005-ff00-b63f-84710c7967bb [INF] Request finished in 330.4066ms 200 text/html (791a596a)
+2020-05-06T16:42:43.1098442+04:00 8000000f-0002-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/swagger-ui.css   (ca22a1cb)
+2020-05-06T16:42:43.1700254+04:00 80000037-0005-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/swagger-ui-bundle.js   (ca22a1cb)
+2020-05-06T16:42:43.1735814+04:00 80000006-0003-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/swagger-ui-standalone-preset.js   (ca22a1cb)
+2020-05-06T16:42:43.1843793+04:00 8000000f-0002-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2020-05-06T16:42:43.1939008+04:00 8000000f-0002-f900-b63f-84710c7967bb [INF] Request finished in 83.37ms 200 text/css (791a596a)
+2020-05-06T16:42:43.2591490+04:00 80000006-0003-fb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2020-05-06T16:42:43.2654458+04:00 80000006-0003-fb00-b63f-84710c7967bb [INF] Request finished in 91.2878ms 200 application/javascript (791a596a)
+2020-05-06T16:42:43.2717774+04:00 80000037-0005-ff00-b63f-84710c7967bb [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2020-05-06T16:42:43.2773150+04:00 80000037-0005-ff00-b63f-84710c7967bb [INF] Request finished in 107.1653ms 200 application/javascript (791a596a)
+2020-05-06T16:42:44.6234361+04:00 80000024-0006-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/swagger/v1/swagger.json   (ca22a1cb)
+2020-05-06T16:42:45.1540516+04:00 80000024-0006-fd00-b63f-84710c7967bb [INF] Request finished in 530.3066ms 200 application/json;charset=utf-8 (791a596a)
+2020-05-06T16:42:45.5036496+04:00 80000011-0002-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/favicon-32x32.png   (ca22a1cb)
+2020-05-06T16:42:45.5219310+04:00 80000011-0002-f900-b63f-84710c7967bb [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2020-05-06T16:42:45.5263265+04:00 80000011-0002-f900-b63f-84710c7967bb [INF] Request finished in 23.8054ms 200 image/png (791a596a)
+2020-05-06T16:42:57.5249045+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Form/formattribute?templateID=11   (ca22a1cb)
+2020-05-06T16:42:58.1490868+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)"' (500cc934)
+2020-05-06T16:42:59.4047769+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAttributeID\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAttributeID(System.String, System.String, System.String)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T16:42:59.5511200+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T16:43:07.9745062+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T16:43:15.1237159+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("5,106"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""sp_FormAttribute @p0,@p1" (0723d8ff)
+2020-05-06T16:43:15.7176915+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 16127.5344ms. (50a9e262)
+2020-05-06T16:43:15.7501333+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KU.Repositories.Models.FormAttribute, KU.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-06T16:43:15.8610891+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)" in 16449.2395ms (afa2e885)
+2020-05-06T16:43:15.8660781+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)"' (99874f2b)
+2020-05-06T16:43:15.8699482+04:00 80000039-0005-ff00-b63f-84710c7967bb [INF] Request finished in 18346.111ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T16:44:35.0475787+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44317/api/Form/AddForms application/json-patch+json 207 (ca22a1cb)
+2020-05-06T16:44:35.0572413+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T16:44:35.0740010+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)"' (500cc934)
+2020-05-06T16:44:35.1163571+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"AddSavedForm\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddSavedForm(KU.Services.Interfaces.SavedFormViewModel)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T16:44:35.1212670+04:00 8000003b-0005-ff00-b63f-84710c7967bb [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2020-05-06T16:44:35.1255955+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T16:44:35.2584162+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T16:44:35.3038413+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T16:44:36.4577157+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("832"ms) [Parameters=["@p0='?' (DbType = Int64), @p1='?' (DbType = DateTime2), @p2='?' (Size = 250), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [SavedForm] ([CreatedBy], [CreatedDate], [SavedFormName], [TemplateID], [UpdateDate], [UpdatedBy])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [SavedFormID]
+FROM [SavedForm]
+WHERE @@ROWCOUNT = 1 AND [SavedFormID] = scope_identity();" (0723d8ff)
+2020-05-06T16:44:36.5158179+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1251.7695ms. (50a9e262)
+2020-05-06T16:44:36.5220130+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Int64"'. (8a1b66c8)
+2020-05-06T16:44:36.5526684+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)" in 1431.4781ms (afa2e885)
+2020-05-06T16:44:36.5568899+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)"' (99874f2b)
+2020-05-06T16:44:36.5616734+04:00 8000003b-0005-ff00-b63f-84710c7967bb [INF] Request finished in 1517.6602ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T16:45:53.5248107+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44317/api/Form/Addformattributevalue application/json-patch+json 131 (ca22a1cb)
+2020-05-06T16:45:53.5282446+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T16:45:53.5312083+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (500cc934)
+2020-05-06T16:45:53.5355265+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Route matched with "{action = \"AddFormAttributeValues\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddFormAttributeValues(System.Collections.Generic.List`1[KU.Services.Interfaces.FormAttributeValueViewModel])" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T16:45:53.5393962+04:00 80000013-0002-f900-b63f-84710c7967bb [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2020-05-06T16:45:53.5432699+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T16:45:53.7858638+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T16:46:05.9558992+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T16:46:39.5619529+04:00 80000013-0002-f900-b63f-84710c7967bb [ERR] Failed executing DbCommand ("31,395"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [FormAttributeValue] ([AttributeValue], [FormAttributeID], [SavedFormID])
+VALUES (@p0, @p1, @p2);
+SELECT [FormAttributeValueID]
+FROM [FormAttributeValue]
+WHERE @@ROWCOUNT = 1 AND [FormAttributeValueID] = scope_identity();" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (258): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:258492a5-fbd7-4590-8292-4956f415c999
+Error Number:-2,State:0,Class:11
+2020-05-06T16:46:39.9503654+04:00 80000013-0002-f900-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"KU.Repositories.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at KU.Repositories.UnitOfWork.SaveChanges() in C:\TCIT\Khalifa University\Khalifa\KU.Repositories\UnitOfWork.cs:line 272
+2020-05-06T16:46:43.5408128+04:00 80000013-0002-f900-b63f-84710c7967bb [ERR] Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at KU.Repositories.UnitOfWork.SaveChanges() in C:\TCIT\Khalifa University\Khalifa\KU.Repositories\UnitOfWork.cs:line 272
+   at KU.Services.Implementations.FormService.InsertFormAttributeValues(List`1 model) in C:\TCIT\Khalifa University\Khalifa\KU.Services\Implementations\FormService.cs:line 321
+   at KU.WebAPI.Controllers.FormController.AddFormAttributeValues(List`1 model) in C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\Controllers\FormController.cs:line 304 (4bfd84c0)
+2020-05-06T16:46:43.5448997+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 49755.0204ms. (50a9e262)
+2020-05-06T16:46:43.5486012+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Data.SqlClient.SqlException"'. (8a1b66c8)
+2020-05-06T16:46:43.6736431+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" in 50133.6365ms (afa2e885)
+2020-05-06T16:46:43.6765885+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (99874f2b)
+2020-05-06T16:46:43.7086484+04:00 80000013-0002-f900-b63f-84710c7967bb [INF] Request finished in 50188.1058ms 500 application/json; charset=utf-8 (791a596a)
+2020-05-06T16:46:50.1853523+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44317/api/Form/Addformattributevalue application/json-patch+json 131 (ca22a1cb)
+2020-05-06T16:46:50.1888382+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T16:46:50.1923703+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (500cc934)
+2020-05-06T16:46:50.2916059+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"AddFormAttributeValues\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddFormAttributeValues(System.Collections.Generic.List`1[KU.Services.Interfaces.FormAttributeValueViewModel])" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T16:46:50.3067336+04:00 8000007d-0004-ff00-b63f-84710c7967bb [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2020-05-06T16:46:50.3199360+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T16:46:50.3252111+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T16:46:51.8517049+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T16:47:21.8690031+04:00 8000007d-0004-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("30,005"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [FormAttributeValue] ([AttributeValue], [FormAttributeID], [SavedFormID])
+VALUES (@p0, @p1, @p2);
+SELECT [FormAttributeValueID]
+FROM [FormAttributeValue]
+WHERE @@ROWCOUNT = 1 AND [FormAttributeValueID] = scope_identity();" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (258): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:258492a5-fbd7-4590-8292-4956f415c999
+Error Number:-2,State:0,Class:11
+2020-05-06T16:47:21.9622830+04:00 8000007d-0004-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"KU.Repositories.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at KU.Repositories.UnitOfWork.SaveChanges() in C:\TCIT\Khalifa University\Khalifa\KU.Repositories\UnitOfWork.cs:line 272
+   at KU.Services.Implementations.FormService.InsertFormAttributeValues(List`1 model) in C:\TCIT\Khalifa University\Khalifa\KU.Services\Implementations\FormService.cs:line 321
+   at KU.WebAPI.Controllers.FormController.AddFormAttributeValues(List`1 model) in C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\Controllers\FormController.cs:line 304
+2020-05-06T16:47:22.0381456+04:00 8000007d-0004-ff00-b63f-84710c7967bb [ERR] Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at KU.Repositories.UnitOfWork.SaveChanges() in C:\TCIT\Khalifa University\Khalifa\KU.Repositories\UnitOfWork.cs:line 272
+   at KU.Services.Implementations.FormService.InsertFormAttributeValues(List`1 model) in C:\TCIT\Khalifa University\Khalifa\KU.Services\Implementations\FormService.cs:line 321
+   at KU.WebAPI.Controllers.FormController.AddFormAttributeValues(List`1 model) in C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\Controllers\FormController.cs:line 304 (4bfd84c0)
+2020-05-06T16:47:22.0415499+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 31712.9893ms. (50a9e262)
+2020-05-06T16:47:22.0439849+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Data.SqlClient.SqlException"'. (8a1b66c8)
+2020-05-06T16:47:22.0474929+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" in 31752.9643ms (afa2e885)
+2020-05-06T16:47:22.0501581+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (99874f2b)
+2020-05-06T16:47:22.0536942+04:00 8000007d-0004-ff00-b63f-84710c7967bb [INF] Request finished in 31868.4458ms 500 application/json; charset=utf-8 (791a596a)
+2020-05-06T16:56:41.4989665+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Form/formattribute?templateID=11   (ca22a1cb)
+2020-05-06T16:56:41.5023319+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)"' (500cc934)
+2020-05-06T16:56:41.5050293+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAttributeID\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAttributeID(System.String, System.String, System.String)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T16:56:41.5077495+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T16:56:41.5117874+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T16:56:42.4650605+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("747"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""sp_FormAttribute @p0,@p1" (0723d8ff)
+2020-05-06T16:56:42.4853502+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 973.178ms. (50a9e262)
+2020-05-06T16:56:42.4892169+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KU.Repositories.Models.FormAttribute, KU.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-06T16:56:42.4950130+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)" in 985.121ms (afa2e885)
+2020-05-06T16:56:42.4990901+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)"' (99874f2b)
+2020-05-06T16:56:42.5029096+04:00 8000000a-0004-fd00-b63f-84710c7967bb [INF] Request finished in 1004.0311ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T17:02:20.3582692+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Form/formattribute?templateID=11   (ca22a1cb)
+2020-05-06T17:02:20.3654900+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)"' (500cc934)
+2020-05-06T17:02:20.3740614+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAttributeID\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAttributeID(System.String, System.String, System.String)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:02:20.3795798+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:02:20.3874770+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:02:20.6234285+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("231"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""sp_FormAttribute @p0,@p1" (0723d8ff)
+2020-05-06T17:02:20.6337342+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 249.9204ms. (50a9e262)
+2020-05-06T17:02:20.6376430+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KU.Repositories.Models.FormAttribute, KU.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-06T17:02:20.6438314+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)" in 265.3038ms (afa2e885)
+2020-05-06T17:02:20.6490925+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.GetAttributeID (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:02:20.6538808+04:00 8000003d-0005-ff00-b63f-84710c7967bb [INF] Request finished in 294.8388ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T17:03:35.0477012+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44317/api/Form/Addformattributevalue application/json-patch+json 131 (ca22a1cb)
+2020-05-06T17:03:35.0517916+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T17:03:35.0553478+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (500cc934)
+2020-05-06T17:03:35.0592414+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"AddFormAttributeValues\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddFormAttributeValues(System.Collections.Generic.List`1[KU.Services.Interfaces.FormAttributeValueViewModel])" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:03:35.0627943+04:00 80000052-0000-fe00-b63f-84710c7967bb [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2020-05-06T17:03:35.0654922+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T17:03:35.0682765+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:03:40.8872501+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:03:47.8043543+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("6,907"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [FormAttributeValue] ([AttributeValue], [FormAttributeID], [SavedFormID])
+VALUES (@p0, @p1, @p2);
+SELECT [FormAttributeValueID]
+FROM [FormAttributeValue]
+WHERE @@ROWCOUNT = 1 AND [FormAttributeValueID] = scope_identity();" (0723d8ff)
+2020-05-06T17:03:50.0823386+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 15002.6925ms. (50a9e262)
+2020-05-06T17:03:50.0864499+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Boolean"'. (8a1b66c8)
+2020-05-06T17:03:50.0924705+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" in 15027.5008ms (afa2e885)
+2020-05-06T17:03:50.0971502+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:03:50.1013698+04:00 80000052-0000-fe00-b63f-84710c7967bb [INF] Request finished in 15052.7766ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T17:05:15.4895685+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Form/listforms?templateID=11   (ca22a1cb)
+2020-05-06T17:05:15.4940426+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.Get (KU.WebAPI)"' (500cc934)
+2020-05-06T17:05:15.5041941+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"Get\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get(Int32, Int32, Int32, Int32, Int32, Int32, System.String)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:05:15.9778854+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.Get (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:05:24.4089254+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:05:24.7841665+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("163"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""exec sp_listform @p0,@p1,@p2,@p3,@p4,@p5,@p6" (0723d8ff)
+2020-05-06T17:05:28.9997204+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.Get (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 13013.1142ms. (50a9e262)
+2020-05-06T17:05:29.0116617+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KU.Services.Interfaces.SavedFormViewModel, KU.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-06T17:05:34.1196110+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.Get (KU.WebAPI)" in 18608.2822ms (afa2e885)
+2020-05-06T17:05:34.1251857+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.Get (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:05:34.1310032+04:00 8000003f-0005-ff00-b63f-84710c7967bb [INF] Request finished in 18640.8456ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T17:06:06.1196086+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Form/Questionnaire?SavedformID=71140&TemplateID=11   (ca22a1cb)
+2020-05-06T17:06:06.1236475+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)"' (500cc934)
+2020-05-06T17:06:06.1360053+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetSampleIDAll\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetSampleIDAll(Int32, Int32)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:06:06.1428351+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:06:26.7857514+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:06:27.1544850+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("158"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""sp_getrecords @p0,@p1,@p2" (0723d8ff)
+2020-05-06T17:06:27.3117426+04:00 80000054-0000-fe00-b63f-84710c7967bb [ERR] An exception occurred while iterating over the results of a query for context type '"KU.Repositories.ApplicationDbContext"'."
+""System.InvalidOperationException: The required column 'Address' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__14_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()" (f5c7ac34)
+System.InvalidOperationException: The required column 'Address' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__14_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2020-05-06T17:06:27.4897945+04:00 80000054-0000-fe00-b63f-84710c7967bb [ERR] Something went wrong: System.InvalidOperationException: The required column 'Address' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__14_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at KU.Repositories.Implementations.QuestionnaireRepository.GetSampleID10(Int32 SavedFormID) in C:\TCIT\Khalifa University\Khalifa\KU.Repositories\Implementations\QuestionnaireRepository.cs:line 165
+   at KU.Services.Implementations.FormService.GetSampleID10(Int32 SampleID) in C:\TCIT\Khalifa University\Khalifa\KU.Services\Implementations\FormService.cs:line 273
+   at KU.WebAPI.Controllers.FormController.GetSampleIDAll(Int32 SavedformID, Int32 TemplateID) in C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\Controllers\FormController.cs:line 138 (a934fbe4)
+2020-05-06T17:06:27.4925329+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 21347.0291ms. (50a9e262)
+2020-05-06T17:06:27.4948817+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"null"'. (8a1b66c8)
+2020-05-06T17:06:27.4972882+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)" in 21359.026ms (afa2e885)
+2020-05-06T17:06:27.5006327+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:06:27.5041265+04:00 80000054-0000-fe00-b63f-84710c7967bb [INF] Request finished in 21385.6448ms 500  (791a596a)
+2020-05-06T17:09:36.0497518+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Form/Questionnaire?SavedformID=71140&TemplateID=11   (ca22a1cb)
+2020-05-06T17:09:36.0527237+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)"' (500cc934)
+2020-05-06T17:09:36.0551449+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Route matched with "{action = \"GetSampleIDAll\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetSampleIDAll(Int32, Int32)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:09:36.0578208+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:09:40.4374910+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:09:40.5128401+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Executed DbCommand ("71"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""sp_getrecords @p0,@p1,@p2" (0723d8ff)
+2020-05-06T17:09:40.8881889+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4827.0353ms. (50a9e262)
+2020-05-06T17:09:40.8916171+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KU.Repositories.Models.Questionnaire10, KU.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-06T17:09:41.1107744+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)" in 5046.6402ms (afa2e885)
+2020-05-06T17:09:41.1144827+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.GetSampleIDAll (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:09:41.1173297+04:00 80000016-0002-f900-b63f-84710c7967bb [INF] Request finished in 5068.1619ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T17:10:32.5503628+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Report/Reports?TemplateID=11   (ca22a1cb)
+2020-05-06T17:10:32.5549459+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)"' (500cc934)
+2020-05-06T17:10:32.5613410+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Route matched with "{action = \"GetReport\", controller = \"Report\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetReport(Int64, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, Int32, Int32, Int32, Int32, System.String)" on controller "KU.WebAPI.Controllers.ReportController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:10:32.5656010+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:10:32.5702965+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:10:34.5030732+04:00 80000018-0002-f900-b63f-84710c7967bb [ERR] Failed executing DbCommand ("728"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64), @p5='?' (Size = 4000), @p6='?', @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?', @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SP_GETDATA @p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name '_sample'.
+Invalid column name '_depository_ID'.
+Invalid column name '_projecttitle'.
+Invalid column name '_principalinvestigator'.
+Invalid column name '_collection_point'.
+Invalid column name '_collected_by'.
+Invalid column name '_collected_date'.
+Invalid column name '_indifamily'.
+Invalid column name '_family_number'.
+Invalid column name '_family_yes'.
+Invalid column name '_interpreted_used'.
+Invalid column name '_interpreted_language'.
+Invalid column name '_interview_reason_contact_with_known_case'.
+Invalid column name '_interview_reason_Overseas_travel'.
+Invalid column name '_interview_reason_Reported_recent_risk_exposure_contact'.
+Invalid column name '_interview_reason_Occupational_exposure'.
+Invalid column name '_interview_reason_Symptomatic_of_disease'.
+Invalid column name '_interview_reason_other'.
+Invalid column name '_interview_reason_other_remarks'.
+Invalid column name '_per_firstname'.
+Invalid column name '_per_middlename'.
+Invalid column name '_per_lastname'.
+Invalid column name '_gender'.
+Invalid column name '_emiratesid'.
+Invalid column name '_nationality'.
+Invalid column name '_dob'.
+Invalid column name '_PlaceOfBirth'.
+Invalid column name '_city'.
+Invalid column name '_phone'.
+Invalid column name '_email'.
+Invalid column name '_ethnicity'.
+Invalid column name '_ethnicity_mixed_specify_text'.
+Invalid column name '_ethnicity_others_text'.
+Invalid column name '_Address'.
+Invalid column name '_Address_type'.
+Invalid column name '_Address_type_other'.
+Invalid column name '_maritalstatus'.
+Invalid column name '_marriage_con'.
+Invalid column name '_pers_NumberofChildren'.
+Invalid column name '_pers_Boys'.
+Invalid column name '_pers_Boys_ages'.
+Invalid column name '_pers_Girls'.
+Invalid column name '_pers_Girls_ages'.
+Invalid column name '_pers_Numberofwives'.
+Invalid column name '_eduLevel'.
+Invalid column name '_employment_status'.
+Invalid column name '_TRP_traveled_outside'.
+Invalid column name '_TRP_traveled_outside_country'.
+Invalid column name '_TRP_traveled_outside_city'.
+Invalid column name '_TRP_flight_no'.
+Invalid column name '_TRP_seat_no'.
+Invalid column name '_TRP_Arrival_Date'.
+Invalid column name '_TRP_Departure_Date'.
+Invalid column name '_TRP_travel_with_organized_tour'.
+Invalid column name '_TRP_Type_of_accommodation'.
+Invalid column name '_TRP_Type_of_accommodation_other'.
+Invalid column name '_TRP_Able_to_enter_travel_specific_details'.
+Invalid column name '_TRP_modes_of_transportation_Airplane'.
+Invalid column name '_TRP_modes_of_transportation_Ship'.
+Invalid column name '_TRP_modes_of_transportation_Bus'.
+Invalid column name '_TRP_modes_of_transportation_Train'.
+Invalid column name '_TRP_modes_of_transportation_Other'.
+Invalid column name '_TRP_modes_of_transportation_Other_text'.
+Invalid column name '_TRP_Transit_stopover'.
+Invalid column name '_TRP_Other_travel_Information'.
+Invalid column name '_TRP_Other_travel_Information_Notes'.
+Invalid column name '_OTI_1_Date'.
+Invalid column name '_OTI_1_Seat_Cabin'.
+Invalid column name '_OTI_1_Carrier'.
+Invalid column name '_OTI_1_Departed_from'.
+Invalid column name '_OTI_1_Flight'.
+Invalid column name '_OTI_1_Arrived_in'.
+Invalid column name '_OTI_2_Date'.
+Invalid column name '_OTI_2_Seat_Cabin'.
+Invalid column name '_OTI_2_Carrier'.
+Invalid column name '_OTI_2_Departed_from'.
+Invalid column name '_OTI_2_Flight'.
+Invalid column name '_OTI_2_Arrived_in'.
+Invalid column name '_OTI_3_Date'.
+Invalid column name '_OTI_3_Seat_Cabin'.
+Invalid column name '_OTI_3_Carrier'.
+Invalid column name '_OTI_3_Departed_from'.
+Invalid column name '_OTI_3_Flight'.
+Invalid column name '_OTI_3_Arrived_in'.
+Invalid column name '_OTI_4_Date'.
+Invalid column name '_OTI_4_Seat_Cabin'.
+Invalid column name '_OTI_4_Carrier'.
+Invalid column name '_OTI_4_Departed_from'.
+Invalid column name '_OTI_4_Flight'.
+Invalid column name '_OTI_4_Arrived_in'.
+Invalid column name '_PRH_2D_contact_with_possible_COVID_19'.
+Invalid column name '_PRH_2D_contact_with_possible_COVID_19_specify'.
+Invalid column name '_PRH_2D_Date_of_last_contact'.
+Invalid column name '_PRH_2D_Likely_source_of_infection'.
+Invalid column name '_PRH_2D_Likely_source_of_infection_Locally_Acquired_Details'.
+Invalid column name '_CP_3A_person_have_symptoms'.
+Invalid column name '_CP_3A_person_have_symptoms_onset_date'.
+Invalid column name '_CP_3A_duration_symptoms'.
+Invalid column name '_CP_3B_ARDS'.
+Invalid column name '_CP_3B_ARDS_onset_date'.
+Invalid column name '_CP_3B_ARDS_XRay'.
+Invalid column name '_CP_3B_Diarrhea'.
+Invalid column name '_CP_3B_Diarrhea_onset_date'.
+Invalid column name '_CP_3B_loss_of_Taste_Smell'.
+Invalid column name '_CP_3B_loss_of_Taste_Smell_onset_date'.
+Invalid column name '_CP_3B_Fever'.
+Invalid column name '_CP_3B_Fever_high_temperature'.
+Invalid column name '_CP_3B_feverish_selfreport'.
+Invalid column name '_CP_3B_feverish_selfreport_where_when'.
+Invalid column name '_CP_3B_Pneumonia'.
+Invalid column name '_CP_3B_Pneumonia_onset_date'.
+Invalid column name '_CP_3B_Pneumonia_XRay'.
+Invalid column name '_CP_3B_Arthralgia'.
+Invalid column name '_CP_3B_Arthralgia_onset_date'.
+Invalid column name '_CP_3B_Cough'.
+Invalid column name '_CP_3B_Cough_onset_date'.
+Invalid column name '_CP_3B_Conjunctivitis'.
+Invalid column name '_CP_3B_Conjunctivitis_onset_date'.
+Invalid column name '_CP_3B_Fatigue'.
+Invalid column name '_CP_3B_Fatigue_onset_date'.
+Invalid column name '_CP_3B_Chills_rigors'.
+Invalid column name '_CP_3B_Chills_rigors_onset_date'.
+Invalid column name '_CP_3B_Headache'.
+Invalid column name '_CP_3B_Headache_onset_date'.
+Invalid column name '_CP_3B_Malaise'.
+Invalid column name '_CP_3B_Malaise_onset_date'.
+Invalid column name '_CP_3B_Myalgia'.
+Invalid column name '_CP_3B_Myalgia_onset_date'.
+Invalid column name '_CP_3B_Nausea'.
+Invalid column name '_CP_3B_Nausea_onset_date'.
+Invalid column name '_CP_3B_Pneumonitis'.
+Invalid column name '_CP_3B_Pneumonitis_onset_date'.
+Invalid column name '_CP_3B_Rhinorrhea'.
+Invalid column name '_CP_3B_Rhinorrhea_onset_date'.
+Invalid column name '_CP_3B_Shortness_of_breath'.
+Invalid column name '_CP_3B_Shortness_of_breath_onset_date'.
+Invalid column name '_CP_3B_Sore_throat'.
+Invalid column name '_CP_3B_Sore_throat_onset_date'.
+Invalid column name '_CP_3B_Runny_stuffynose'.
+Invalid column name '_CP_3B_Runny_stuffynose_onset_date'.
+Invalid column name '_CP_3B_Muscle_bodyaches'.
+Invalid column name '_CP_3B_Muscle_bodyaches_onset_date'.
+Invalid column name '_CP_3B_Vomiting'.
+Invalid column name '_CP_3B_Vomiting_onset_date'.
+Invalid column name '_CP_3B_Sneezing'.
+Invalid column name '_CP_3B_Sneezing_onset_date'.
+Invalid column name '_CP_3B_Other_symptoms'.
+Invalid column name '_CP_3B_Clinical_notes'.
+Invalid column name '_CP_3C_person_hospitalized'.
+Invalid column name '_CP_3C_person_hospitalized_phone_number_hospital'.
+Invalid column name '_CP_3C_Admitted_ICU_HDU'.
+Invalid column name '_CP_3C_Admitted_ICU_HDU_number_of_days'.
+Invalid column name '_CP_3C_Oxygen_Therapy_reqd'.
+Invalid column name '_CP_3C_Intubation_reqd'.
+Invalid column name '_CP_3C_Mechanical_incubation_reqd'.
+Invalid column name '_CP_3C_Hospital_medical_record_chart_number'.
+Invalid column name '_CP_3D_1_Medication_administered'.
+Invalid column name '_CP_3D_1_Dose'.
+Invalid column name '_CP_3D_1_Comments'.
+Invalid column name '_CP_3D_2_Medication_administered'.
+Invalid column name '_CP_3D_2_Dose'.
+Invalid column name '_CP_3D_2_Comments'.
+Invalid column name '_CP_3D_3_Medication_administered'.
+Invalid column name '_CP_3D_3_Dose'.
+Invalid column name '_CP_3D_3_Comments'.
+Invalid column name '_CP_3D_4_Medication_administered'.
+Invalid column name '_CP_3D_4_Dose'.
+Invalid column name '_CP_3D_4_Comments'.
+Invalid column name '_CP_3D_5_Medication_administered'.
+Invalid column name '_CP_3D_5_Dose'.
+Invalid column name '_CP_3D_5_Comments'.
+Invalid column name '_CP_3D_6_Medication_administered'.
+Invalid column name '_CP_3D_6_Dose'.
+Invalid column name '_CP_3D_6_Comments'.
+Invalid column name '_CP_3D_7_Medication_administered'.
+Invalid column name '_CP_3D_7_Dose'.
+Invalid column name '_CP_3D_7_Comments'.
+Invalid column name '_CP_3E_outcome_of_the_case'.
+Invalid column name '_CP_3E_outcome_of_the_case_date_of_death'.
+Invalid column name '_CP_3E_death_due_to_COVID_19'.
+Invalid column name '_CP_3E_death_due_to_other_cause'.
+Invalid column name '_CP_3EE_No_risk_medical_conditions'.
+Invalid column name '_CP_3EE_Cardiac_disease'.
+Invalid column name '_CP_3EE_Chronic_lung_disease'.
+Invalid column name '_CP_3EE_Haemoglobinopathies'.
+Invalid column name '_CP_3EE_Diabetes'.
+Invalid column name '_CP_3EE_Diabetes_dialysis'.
+Invalid column name '_CP_3EE_Immunosuppressive_condition'.
+Invalid column name '_CP_3EE_Immunosuppressive_condition_specify'.
+Invalid column name '_CP_3EE_Liver_disease'.
+Invalid column name '_CP_3EE_Metabolic_disease'.
+Invalid column name '_CP_3EE_Neurological_disorder'.
+Invalid column name '_CP_3EE_Obesity'.
+Invalid column name '_CP_3EE_Renal_disease'.
+Invalid column name '_CP_3EE_Other_risk_medical_condition'.
+Invalid column name '_CP_3EE_Other_risk_medical_condition_specify'.
+Invalid column name '_CP_3EE_Notes'.
+Invalid column name '_CP_3F_currently_pregnant'.
+Invalid column name '_CP_3F_currently_pregnant_number_of_weeks_gestation'.
+Invalid column name '_CP_3F_current_smoker'.
+Invalid column name '_CP_3F_current_smoker_year'.
+Invalid column name '_CP_3F_current_smoker_pack_per_Week'.
+Invalid column name '_CP_3F_consume_alcohol'.
+Invalid column name '_CP_3F_drinks_per_week'.
+Invalid column name '_PCI_4A_Participants_blood_type'.
+Invalid column name '_PCI_4A_Participants_Weight'.
+Invalid column name '_PCI_4A_Participants_Height'.
+Invalid column name '_PCI_4B_Hepatitis_B_type'.
+Invalid column name '_PCI_4B_Hepatitis_B_date_given'.
+Invalid column name '_PCI_4B_Hepatitis_B_administered_by'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_type'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_date_given'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_administered_by'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_type'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_date_given'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_administered_by'.
+Invalid column name '_PCI_4B_Pneumococcal_type'.
+Invalid column name '_PCI_4B_Pneumococcal_date_given'.
+Invalid column name '_PCI_4B_Pneumococcal_administered_by'.
+Invalid column name '_PCI_4B_Polio_type'.
+Invalid column name '_PCI_4B_Polio_date_given'.
+Invalid column name '_PCI_4B_Polio_administered_by'.
+Invalid column name '_PCI_4B_Rotavirus_type'.
+Invalid column name '_PCI_4B_Rotavirus_date_given'.
+Invalid column name '_PCI_4B_Rotavirus_administered_by'.
+Invalid column name '_PCI_4B_Measles_type'.
+Invalid column name '_PCI_4B_Measles_date_given'.
+Invalid column name '_PCI_4B_Measles_administered_by'.
+Invalid column name '_PCI_4B_Varicella_type'.
+Invalid column name '_PCI_4B_Varicella_date_given'.
+Invalid column name '_PCI_4B_Varicella_administered_by'.
+Invalid column name '_PCI_4B_Hepatitis_A_type'.
+Invalid column name '_PCI_4B_Hepatitis_A_date_given'.
+Invalid column name '_PCI_4B_Hepatitis_A_administered_by'.
+Invalid column name '_PCI_4B_Meningococcal_type'.
+Invalid column name '_PCI_4B_Meningococcal_date_given'.
+Invalid column name '_PCI_4B_Meningococcal_administered_by'.
+Invalid column name '_PCI_4B_Human_papillomavirus_type'.
+Invalid column name '_PCI_4B_Human_papillomavirus_date_given'.
+Invalid column name '_PCI_4B_Human_papillomavirus_administered_by'.
+Invalid column name '_PCI_4B_Zoster_type'.
+Invalid column name '_PCI_4B_Zoster_date_given'.
+Invalid column name '_PCI_4B_Zoster_administered_by'.
+Invalid column name '_PCI_4B_Influenza_type'.
+Invalid column name '_PCI_4B_Influenza_date_given'.
+Invalid column name '_PCI_4B_Influenza_administered_by'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_type'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_date_given'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_administered_by'.
+Invalid column name '_PCI_4C_Asthma_wheezing_YesNo'.
+Invalid column name '_PCI_4C_Asthma_wheezing_OnsetAge'.
+Invalid column name '_PCI_4C_Asthma_wheezing_Severity'.
+Invalid column name '_PCI_4C_Asthma_wheezing_Comments'.
+Invalid column name '_PCI_4C_Other_breathing_problems_YesNo'.
+Invalid column name '_PCI_4C_Other_breathing_problems_OnsetAge'.
+Invalid column name '_PCI_4C_Other_breathing_problems_Severity'.
+Invalid column name '_PCI_4C_Other_breathing_problems_Comments'.
+Invalid column name '_PCI_4C_Sinus_trouble_YesNo'.
+Invalid column name '_PCI_4C_Sinus_trouble_OnsetAge'.
+Invalid column name '_PCI_4C_Sinus_trouble_Severity'.
+Invalid column name '_PCI_4C_Sinus_trouble_Comments'.
+Invalid column name '_PCI_4C_Hay_fever_YesNo'.
+Invalid column name '_PCI_4C_Hay_fever_OnsetAge'.
+Invalid column name '_PCI_4C_Hay_fever_Severity'.
+Invalid column name '_PCI_4C_Hay_fever_Comments'.
+Invalid column name '_PCI_4C_Hives_YesNo'.
+Invalid column name '_PCI_4C_Hives_OnsetAge'.
+Invalid column name '_PCI_4C_Hives_Severity'.
+Invalid column name '_PCI_4C_Hives_Comments'.
+Invalid column name '_PCI_4C_Eczema_YesNo'.
+Invalid column name '_PCI_4C_Eczema_OnsetAge'.
+Invalid column name '_PCI_4C_Eczema_Severity'.
+Invalid column name '_PCI_4C_Eczema_Comments'.
+Invalid column name '_PCI_4C_Frequent_infections_YesNo'.
+Invalid column name '_PCI_4C_Frequent_infections_OnsetAge'.
+Invalid column name '_PCI_4C_Frequent_infections_Severity'.
+Invalid column name '_PCI_4C_Frequent_infections_Comments'.
+Invalid column name '_PCI_4C_Food_reactions_YesNo'.
+Invalid column name '_PCI_4C_Food_reactions_OnsetAge'.
+Invalid column name '_PCI_4C_Food_reactions_Severity'.
+Invalid column name '_PCI_4C_Food_reactions_Comments'.
+Invalid column name '_PCI_4C_Drug_reactions_YesNo'.
+Invalid column name '_PCI_4C_Drug_reactions_OnsetAge'.
+Invalid column name '_PCI_4C_Drug_reactions_Severity'.
+Invalid column name '_PCI_4C_Drug_reactions_Comments'.
+Invalid column name '_PCI_4C_Others_YesNo'.
+Invalid column name '_PCI_4C_Others_Name'.
+Invalid column name '_PCI_4C_Others_OnsetAge'.
+Invalid column name '_PCI_4C_Others_Severity'.
+Invalid column name '_PCI_4C_Others_Comments'.
+Invalid column name '_PCI_4D_1_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_1_Viral_Infection_year'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_2_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_2_Viral_Infection_year'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_3_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_3_Viral_Infection_year'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_4_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_4_Viral_Infection_year'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_5_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_5_Viral_Infection_year'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_6_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_6_Viral_Infection_year'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_7_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_7_Viral_Infection_year'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_8_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_8_Viral_Infection_year'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Comments'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms_date'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms_detail_of_illness'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms_date'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms_detail_of_illness'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms_date'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms_detail_of_illness'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations_others'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations_Last_date'.
+Invalid column name '_PC_6A_infection_likely_acquired_in_workplace'.
+Invalid column name '_PC_6A_Description_of_occupation'.
+Invalid column name '_PC_6A_Employer_facility_details'.
+Invalid column name '_PC_6A_Employer_facility_address'.
+Invalid column name '_PC_6A_Employer_facility_emirates'.
+Invalid column name '_PC_6A_Employer_facility_email'.
+Invalid column name '_PC_6A_Employer_facility_phone'.
+Invalid column name '_PC_6A_Employer_facility_contact_name'.
+Invalid column name '_PC_6B_infectious_visited_venues_doctor'.
+Invalid column name '_PC_6B_infectious_visited_venues_Schools'.
+Invalid column name '_PC_6B_infectious_visited_venues_Aged_care_facility'.
+Invalid column name '_PC_6B_infectious_visited_venues_Transport'.
+Invalid column name '_PC_6B_infectious_visited_venues_Concert'.
+Invalid column name '_PC_6B_infectious_visited_venues_Office'.
+Invalid column name '_PC_6B_infectious_visited_venues_other'.
+Invalid column name '_PC_6B_infectious_visited_venues_other_detail'.
+Invalid column name '_PC_6C_infectious_close_contact'.
+Invalid column name '_PC_6C_infectious_close_contact_details'.
+Invalid column name '_LD_7_sample_type'.
+Invalid column name '_LD_7_sample_type_other'.
+Invalid column name '_LD_7_sample_received_date'.
+Invalid column name '_LD_7_storage'.
+Invalid column name '_LD_7_sample_volume'.
+Invalid column name '_LD_7_project_code'.
+Invalid column name '_LD_7_test_code'.
+Invalid column name '_LD_7_comments'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+ClientConnectionId:1fa52354-7569-438f-a88c-0d030371091e
+Error Number:207,State:1,Class:16
+2020-05-06T17:10:34.5509320+04:00 80000018-0002-f900-b63f-84710c7967bb [ERR] An exception occurred while iterating over the results of a query for context type '"KU.Repositories.ApplicationDbContext"'."
+""System.Data.SqlClient.SqlException (0x80131904): Invalid column name '_sample'.
+Invalid column name '_depository_ID'.
+Invalid column name '_projecttitle'.
+Invalid column name '_principalinvestigator'.
+Invalid column name '_collection_point'.
+Invalid column name '_collected_by'.
+Invalid column name '_collected_date'.
+Invalid column name '_indifamily'.
+Invalid column name '_family_number'.
+Invalid column name '_family_yes'.
+Invalid column name '_interpreted_used'.
+Invalid column name '_interpreted_language'.
+Invalid column name '_interview_reason_contact_with_known_case'.
+Invalid column name '_interview_reason_Overseas_travel'.
+Invalid column name '_interview_reason_Reported_recent_risk_exposure_contact'.
+Invalid column name '_interview_reason_Occupational_exposure'.
+Invalid column name '_interview_reason_Symptomatic_of_disease'.
+Invalid column name '_interview_reason_other'.
+Invalid column name '_interview_reason_other_remarks'.
+Invalid column name '_per_firstname'.
+Invalid column name '_per_middlename'.
+Invalid column name '_per_lastname'.
+Invalid column name '_gender'.
+Invalid column name '_emiratesid'.
+Invalid column name '_nationality'.
+Invalid column name '_dob'.
+Invalid column name '_PlaceOfBirth'.
+Invalid column name '_city'.
+Invalid column name '_phone'.
+Invalid column name '_email'.
+Invalid column name '_ethnicity'.
+Invalid column name '_ethnicity_mixed_specify_text'.
+Invalid column name '_ethnicity_others_text'.
+Invalid column name '_Address'.
+Invalid column name '_Address_type'.
+Invalid column name '_Address_type_other'.
+Invalid column name '_maritalstatus'.
+Invalid column name '_marriage_con'.
+Invalid column name '_pers_NumberofChildren'.
+Invalid column name '_pers_Boys'.
+Invalid column name '_pers_Boys_ages'.
+Invalid column name '_pers_Girls'.
+Invalid column name '_pers_Girls_ages'.
+Invalid column name '_pers_Numberofwives'.
+Invalid column name '_eduLevel'.
+Invalid column name '_employment_status'.
+Invalid column name '_TRP_traveled_outside'.
+Invalid column name '_TRP_traveled_outside_country'.
+Invalid column name '_TRP_traveled_outside_city'.
+Invalid column name '_TRP_flight_no'.
+Invalid column name '_TRP_seat_no'.
+Invalid column name '_TRP_Arrival_Date'.
+Invalid column name '_TRP_Departure_Date'.
+Invalid column name '_TRP_travel_with_organized_tour'.
+Invalid column name '_TRP_Type_of_accommodation'.
+Invalid column name '_TRP_Type_of_accommodation_other'.
+Invalid column name '_TRP_Able_to_enter_travel_specific_details'.
+Invalid column name '_TRP_modes_of_transportation_Airplane'.
+Invalid column name '_TRP_modes_of_transportation_Ship'.
+Invalid column name '_TRP_modes_of_transportation_Bus'.
+Invalid column name '_TRP_modes_of_transportation_Train'.
+Invalid column name '_TRP_modes_of_transportation_Other'.
+Invalid column name '_TRP_modes_of_transportation_Other_text'.
+Invalid column name '_TRP_Transit_stopover'.
+Invalid column name '_TRP_Other_travel_Information'.
+Invalid column name '_TRP_Other_travel_Information_Notes'.
+Invalid column name '_OTI_1_Date'.
+Invalid column name '_OTI_1_Seat_Cabin'.
+Invalid column name '_OTI_1_Carrier'.
+Invalid column name '_OTI_1_Departed_from'.
+Invalid column name '_OTI_1_Flight'.
+Invalid column name '_OTI_1_Arrived_in'.
+Invalid column name '_OTI_2_Date'.
+Invalid column name '_OTI_2_Seat_Cabin'.
+Invalid column name '_OTI_2_Carrier'.
+Invalid column name '_OTI_2_Departed_from'.
+Invalid column name '_OTI_2_Flight'.
+Invalid column name '_OTI_2_Arrived_in'.
+Invalid column name '_OTI_3_Date'.
+Invalid column name '_OTI_3_Seat_Cabin'.
+Invalid column name '_OTI_3_Carrier'.
+Invalid column name '_OTI_3_Departed_from'.
+Invalid column name '_OTI_3_Flight'.
+Invalid column name '_OTI_3_Arrived_in'.
+Invalid column name '_OTI_4_Date'.
+Invalid column name '_OTI_4_Seat_Cabin'.
+Invalid column name '_OTI_4_Carrier'.
+Invalid column name '_OTI_4_Departed_from'.
+Invalid column name '_OTI_4_Flight'.
+Invalid column name '_OTI_4_Arrived_in'.
+Invalid column name '_PRH_2D_contact_with_possible_COVID_19'.
+Invalid column name '_PRH_2D_contact_with_possible_COVID_19_specify'.
+Invalid column name '_PRH_2D_Date_of_last_contact'.
+Invalid column name '_PRH_2D_Likely_source_of_infection'.
+Invalid column name '_PRH_2D_Likely_source_of_infection_Locally_Acquired_Details'.
+Invalid column name '_CP_3A_person_have_symptoms'.
+Invalid column name '_CP_3A_person_have_symptoms_onset_date'.
+Invalid column name '_CP_3A_duration_symptoms'.
+Invalid column name '_CP_3B_ARDS'.
+Invalid column name '_CP_3B_ARDS_onset_date'.
+Invalid column name '_CP_3B_ARDS_XRay'.
+Invalid column name '_CP_3B_Diarrhea'.
+Invalid column name '_CP_3B_Diarrhea_onset_date'.
+Invalid column name '_CP_3B_loss_of_Taste_Smell'.
+Invalid column name '_CP_3B_loss_of_Taste_Smell_onset_date'.
+Invalid column name '_CP_3B_Fever'.
+Invalid column name '_CP_3B_Fever_high_temperature'.
+Invalid column name '_CP_3B_feverish_selfreport'.
+Invalid column name '_CP_3B_feverish_selfreport_where_when'.
+Invalid column name '_CP_3B_Pneumonia'.
+Invalid column name '_CP_3B_Pneumonia_onset_date'.
+Invalid column name '_CP_3B_Pneumonia_XRay'.
+Invalid column name '_CP_3B_Arthralgia'.
+Invalid column name '_CP_3B_Arthralgia_onset_date'.
+Invalid column name '_CP_3B_Cough'.
+Invalid column name '_CP_3B_Cough_onset_date'.
+Invalid column name '_CP_3B_Conjunctivitis'.
+Invalid column name '_CP_3B_Conjunctivitis_onset_date'.
+Invalid column name '_CP_3B_Fatigue'.
+Invalid column name '_CP_3B_Fatigue_onset_date'.
+Invalid column name '_CP_3B_Chills_rigors'.
+Invalid column name '_CP_3B_Chills_rigors_onset_date'.
+Invalid column name '_CP_3B_Headache'.
+Invalid column name '_CP_3B_Headache_onset_date'.
+Invalid column name '_CP_3B_Malaise'.
+Invalid column name '_CP_3B_Malaise_onset_date'.
+Invalid column name '_CP_3B_Myalgia'.
+Invalid column name '_CP_3B_Myalgia_onset_date'.
+Invalid column name '_CP_3B_Nausea'.
+Invalid column name '_CP_3B_Nausea_onset_date'.
+Invalid column name '_CP_3B_Pneumonitis'.
+Invalid column name '_CP_3B_Pneumonitis_onset_date'.
+Invalid column name '_CP_3B_Rhinorrhea'.
+Invalid column name '_CP_3B_Rhinorrhea_onset_date'.
+Invalid column name '_CP_3B_Shortness_of_breath'.
+Invalid column name '_CP_3B_Shortness_of_breath_onset_date'.
+Invalid column name '_CP_3B_Sore_throat'.
+Invalid column name '_CP_3B_Sore_throat_onset_date'.
+Invalid column name '_CP_3B_Runny_stuffynose'.
+Invalid column name '_CP_3B_Runny_stuffynose_onset_date'.
+Invalid column name '_CP_3B_Muscle_bodyaches'.
+Invalid column name '_CP_3B_Muscle_bodyaches_onset_date'.
+Invalid column name '_CP_3B_Vomiting'.
+Invalid column name '_CP_3B_Vomiting_onset_date'.
+Invalid column name '_CP_3B_Sneezing'.
+Invalid column name '_CP_3B_Sneezing_onset_date'.
+Invalid column name '_CP_3B_Other_symptoms'.
+Invalid column name '_CP_3B_Clinical_notes'.
+Invalid column name '_CP_3C_person_hospitalized'.
+Invalid column name '_CP_3C_person_hospitalized_phone_number_hospital'.
+Invalid column name '_CP_3C_Admitted_ICU_HDU'.
+Invalid column name '_CP_3C_Admitted_ICU_HDU_number_of_days'.
+Invalid column name '_CP_3C_Oxygen_Therapy_reqd'.
+Invalid column name '_CP_3C_Intubation_reqd'.
+Invalid column name '_CP_3C_Mechanical_incubation_reqd'.
+Invalid column name '_CP_3C_Hospital_medical_record_chart_number'.
+Invalid column name '_CP_3D_1_Medication_administered'.
+Invalid column name '_CP_3D_1_Dose'.
+Invalid column name '_CP_3D_1_Comments'.
+Invalid column name '_CP_3D_2_Medication_administered'.
+Invalid column name '_CP_3D_2_Dose'.
+Invalid column name '_CP_3D_2_Comments'.
+Invalid column name '_CP_3D_3_Medication_administered'.
+Invalid column name '_CP_3D_3_Dose'.
+Invalid column name '_CP_3D_3_Comments'.
+Invalid column name '_CP_3D_4_Medication_administered'.
+Invalid column name '_CP_3D_4_Dose'.
+Invalid column name '_CP_3D_4_Comments'.
+Invalid column name '_CP_3D_5_Medication_administered'.
+Invalid column name '_CP_3D_5_Dose'.
+Invalid column name '_CP_3D_5_Comments'.
+Invalid column name '_CP_3D_6_Medication_administered'.
+Invalid column name '_CP_3D_6_Dose'.
+Invalid column name '_CP_3D_6_Comments'.
+Invalid column name '_CP_3D_7_Medication_administered'.
+Invalid column name '_CP_3D_7_Dose'.
+Invalid column name '_CP_3D_7_Comments'.
+Invalid column name '_CP_3E_outcome_of_the_case'.
+Invalid column name '_CP_3E_outcome_of_the_case_date_of_death'.
+Invalid column name '_CP_3E_death_due_to_COVID_19'.
+Invalid column name '_CP_3E_death_due_to_other_cause'.
+Invalid column name '_CP_3EE_No_risk_medical_conditions'.
+Invalid column name '_CP_3EE_Cardiac_disease'.
+Invalid column name '_CP_3EE_Chronic_lung_disease'.
+Invalid column name '_CP_3EE_Haemoglobinopathies'.
+Invalid column name '_CP_3EE_Diabetes'.
+Invalid column name '_CP_3EE_Diabetes_dialysis'.
+Invalid column name '_CP_3EE_Immunosuppressive_condition'.
+Invalid column name '_CP_3EE_Immunosuppressive_condition_specify'.
+Invalid column name '_CP_3EE_Liver_disease'.
+Invalid column name '_CP_3EE_Metabolic_disease'.
+Invalid column name '_CP_3EE_Neurological_disorder'.
+Invalid column name '_CP_3EE_Obesity'.
+Invalid column name '_CP_3EE_Renal_disease'.
+Invalid column name '_CP_3EE_Other_risk_medical_condition'.
+Invalid column name '_CP_3EE_Other_risk_medical_condition_specify'.
+Invalid column name '_CP_3EE_Notes'.
+Invalid column name '_CP_3F_currently_pregnant'.
+Invalid column name '_CP_3F_currently_pregnant_number_of_weeks_gestation'.
+Invalid column name '_CP_3F_current_smoker'.
+Invalid column name '_CP_3F_current_smoker_year'.
+Invalid column name '_CP_3F_current_smoker_pack_per_Week'.
+Invalid column name '_CP_3F_consume_alcohol'.
+Invalid column name '_CP_3F_drinks_per_week'.
+Invalid column name '_PCI_4A_Participants_blood_type'.
+Invalid column name '_PCI_4A_Participants_Weight'.
+Invalid column name '_PCI_4A_Participants_Height'.
+Invalid column name '_PCI_4B_Hepatitis_B_type'.
+Invalid column name '_PCI_4B_Hepatitis_B_date_given'.
+Invalid column name '_PCI_4B_Hepatitis_B_administered_by'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_type'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_date_given'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_administered_by'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_type'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_date_given'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_administered_by'.
+Invalid column name '_PCI_4B_Pneumococcal_type'.
+Invalid column name '_PCI_4B_Pneumococcal_date_given'.
+Invalid column name '_PCI_4B_Pneumococcal_administered_by'.
+Invalid column name '_PCI_4B_Polio_type'.
+Invalid column name '_PCI_4B_Polio_date_given'.
+Invalid column name '_PCI_4B_Polio_administered_by'.
+Invalid column name '_PCI_4B_Rotavirus_type'.
+Invalid column name '_PCI_4B_Rotavirus_date_given'.
+Invalid column name '_PCI_4B_Rotavirus_administered_by'.
+Invalid column name '_PCI_4B_Measles_type'.
+Invalid column name '_PCI_4B_Measles_date_given'.
+Invalid column name '_PCI_4B_Measles_administered_by'.
+Invalid column name '_PCI_4B_Varicella_type'.
+Invalid column name '_PCI_4B_Varicella_date_given'.
+Invalid column name '_PCI_4B_Varicella_administered_by'.
+Invalid column name '_PCI_4B_Hepatitis_A_type'.
+Invalid column name '_PCI_4B_Hepatitis_A_date_given'.
+Invalid column name '_PCI_4B_Hepatitis_A_administered_by'.
+Invalid column name '_PCI_4B_Meningococcal_type'.
+Invalid column name '_PCI_4B_Meningococcal_date_given'.
+Invalid column name '_PCI_4B_Meningococcal_administered_by'.
+Invalid column name '_PCI_4B_Human_papillomavirus_type'.
+Invalid column name '_PCI_4B_Human_papillomavirus_date_given'.
+Invalid column name '_PCI_4B_Human_papillomavirus_administered_by'.
+Invalid column name '_PCI_4B_Zoster_type'.
+Invalid column name '_PCI_4B_Zoster_date_given'.
+Invalid column name '_PCI_4B_Zoster_administered_by'.
+Invalid column name '_PCI_4B_Influenza_type'.
+Invalid column name '_PCI_4B_Influenza_date_given'.
+Invalid column name '_PCI_4B_Influenza_administered_by'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_type'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_date_given'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_administered_by'.
+Invalid column name '_PCI_4C_Asthma_wheezing_YesNo'.
+Invalid column name '_PCI_4C_Asthma_wheezing_OnsetAge'.
+Invalid column name '_PCI_4C_Asthma_wheezing_Severity'.
+Invalid column name '_PCI_4C_Asthma_wheezing_Comments'.
+Invalid column name '_PCI_4C_Other_breathing_problems_YesNo'.
+Invalid column name '_PCI_4C_Other_breathing_problems_OnsetAge'.
+Invalid column name '_PCI_4C_Other_breathing_problems_Severity'.
+Invalid column name '_PCI_4C_Other_breathing_problems_Comments'.
+Invalid column name '_PCI_4C_Sinus_trouble_YesNo'.
+Invalid column name '_PCI_4C_Sinus_trouble_OnsetAge'.
+Invalid column name '_PCI_4C_Sinus_trouble_Severity'.
+Invalid column name '_PCI_4C_Sinus_trouble_Comments'.
+Invalid column name '_PCI_4C_Hay_fever_YesNo'.
+Invalid column name '_PCI_4C_Hay_fever_OnsetAge'.
+Invalid column name '_PCI_4C_Hay_fever_Severity'.
+Invalid column name '_PCI_4C_Hay_fever_Comments'.
+Invalid column name '_PCI_4C_Hives_YesNo'.
+Invalid column name '_PCI_4C_Hives_OnsetAge'.
+Invalid column name '_PCI_4C_Hives_Severity'.
+Invalid column name '_PCI_4C_Hives_Comments'.
+Invalid column name '_PCI_4C_Eczema_YesNo'.
+Invalid column name '_PCI_4C_Eczema_OnsetAge'.
+Invalid column name '_PCI_4C_Eczema_Severity'.
+Invalid column name '_PCI_4C_Eczema_Comments'.
+Invalid column name '_PCI_4C_Frequent_infections_YesNo'.
+Invalid column name '_PCI_4C_Frequent_infections_OnsetAge'.
+Invalid column name '_PCI_4C_Frequent_infections_Severity'.
+Invalid column name '_PCI_4C_Frequent_infections_Comments'.
+Invalid column name '_PCI_4C_Food_reactions_YesNo'.
+Invalid column name '_PCI_4C_Food_reactions_OnsetAge'.
+Invalid column name '_PCI_4C_Food_reactions_Severity'.
+Invalid column name '_PCI_4C_Food_reactions_Comments'.
+Invalid column name '_PCI_4C_Drug_reactions_YesNo'.
+Invalid column name '_PCI_4C_Drug_reactions_OnsetAge'.
+Invalid column name '_PCI_4C_Drug_reactions_Severity'.
+Invalid column name '_PCI_4C_Drug_reactions_Comments'.
+Invalid column name '_PCI_4C_Others_YesNo'.
+Invalid column name '_PCI_4C_Others_Name'.
+Invalid column name '_PCI_4C_Others_OnsetAge'.
+Invalid column name '_PCI_4C_Others_Severity'.
+Invalid column name '_PCI_4C_Others_Comments'.
+Invalid column name '_PCI_4D_1_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_1_Viral_Infection_year'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_2_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_2_Viral_Infection_year'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_3_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_3_Viral_Infection_year'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_4_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_4_Viral_Infection_year'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_5_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_5_Viral_Infection_year'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_6_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_6_Viral_Infection_year'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_7_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_7_Viral_Infection_year'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_8_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_8_Viral_Infection_year'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Comments'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms_date'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms_detail_of_illness'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms_date'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms_detail_of_illness'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms_date'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms_detail_of_illness'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations_others'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations_Last_date'.
+Invalid column name '_PC_6A_infection_likely_acquired_in_workplace'.
+Invalid column name '_PC_6A_Description_of_occupation'.
+Invalid column name '_PC_6A_Employer_facility_details'.
+Invalid column name '_PC_6A_Employer_facility_address'.
+Invalid column name '_PC_6A_Employer_facility_emirates'.
+Invalid column name '_PC_6A_Employer_facility_email'.
+Invalid column name '_PC_6A_Employer_facility_phone'.
+Invalid column name '_PC_6A_Employer_facility_contact_name'.
+Invalid column name '_PC_6B_infectious_visited_venues_doctor'.
+Invalid column name '_PC_6B_infectious_visited_venues_Schools'.
+Invalid column name '_PC_6B_infectious_visited_venues_Aged_care_facility'.
+Invalid column name '_PC_6B_infectious_visited_venues_Transport'.
+Invalid column name '_PC_6B_infectious_visited_venues_Concert'.
+Invalid column name '_PC_6B_infectious_visited_venues_Office'.
+Invalid column name '_PC_6B_infectious_visited_venues_other'.
+Invalid column name '_PC_6B_infectious_visited_venues_other_detail'.
+Invalid column name '_PC_6C_infectious_close_contact'.
+Invalid column name '_PC_6C_infectious_close_contact_details'.
+Invalid column name '_LD_7_sample_type'.
+Invalid column name '_LD_7_sample_type_other'.
+Invalid column name '_LD_7_sample_received_date'.
+Invalid column name '_LD_7_storage'.
+Invalid column name '_LD_7_sample_volume'.
+Invalid column name '_LD_7_project_code'.
+Invalid column name '_LD_7_test_code'.
+Invalid column name '_LD_7_comments'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+ClientConnectionId:1fa52354-7569-438f-a88c-0d030371091e
+Error Number:207,State:1,Class:16" (f5c7ac34)
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name '_sample'.
+Invalid column name '_depository_ID'.
+Invalid column name '_projecttitle'.
+Invalid column name '_principalinvestigator'.
+Invalid column name '_collection_point'.
+Invalid column name '_collected_by'.
+Invalid column name '_collected_date'.
+Invalid column name '_indifamily'.
+Invalid column name '_family_number'.
+Invalid column name '_family_yes'.
+Invalid column name '_interpreted_used'.
+Invalid column name '_interpreted_language'.
+Invalid column name '_interview_reason_contact_with_known_case'.
+Invalid column name '_interview_reason_Overseas_travel'.
+Invalid column name '_interview_reason_Reported_recent_risk_exposure_contact'.
+Invalid column name '_interview_reason_Occupational_exposure'.
+Invalid column name '_interview_reason_Symptomatic_of_disease'.
+Invalid column name '_interview_reason_other'.
+Invalid column name '_interview_reason_other_remarks'.
+Invalid column name '_per_firstname'.
+Invalid column name '_per_middlename'.
+Invalid column name '_per_lastname'.
+Invalid column name '_gender'.
+Invalid column name '_emiratesid'.
+Invalid column name '_nationality'.
+Invalid column name '_dob'.
+Invalid column name '_PlaceOfBirth'.
+Invalid column name '_city'.
+Invalid column name '_phone'.
+Invalid column name '_email'.
+Invalid column name '_ethnicity'.
+Invalid column name '_ethnicity_mixed_specify_text'.
+Invalid column name '_ethnicity_others_text'.
+Invalid column name '_Address'.
+Invalid column name '_Address_type'.
+Invalid column name '_Address_type_other'.
+Invalid column name '_maritalstatus'.
+Invalid column name '_marriage_con'.
+Invalid column name '_pers_NumberofChildren'.
+Invalid column name '_pers_Boys'.
+Invalid column name '_pers_Boys_ages'.
+Invalid column name '_pers_Girls'.
+Invalid column name '_pers_Girls_ages'.
+Invalid column name '_pers_Numberofwives'.
+Invalid column name '_eduLevel'.
+Invalid column name '_employment_status'.
+Invalid column name '_TRP_traveled_outside'.
+Invalid column name '_TRP_traveled_outside_country'.
+Invalid column name '_TRP_traveled_outside_city'.
+Invalid column name '_TRP_flight_no'.
+Invalid column name '_TRP_seat_no'.
+Invalid column name '_TRP_Arrival_Date'.
+Invalid column name '_TRP_Departure_Date'.
+Invalid column name '_TRP_travel_with_organized_tour'.
+Invalid column name '_TRP_Type_of_accommodation'.
+Invalid column name '_TRP_Type_of_accommodation_other'.
+Invalid column name '_TRP_Able_to_enter_travel_specific_details'.
+Invalid column name '_TRP_modes_of_transportation_Airplane'.
+Invalid column name '_TRP_modes_of_transportation_Ship'.
+Invalid column name '_TRP_modes_of_transportation_Bus'.
+Invalid column name '_TRP_modes_of_transportation_Train'.
+Invalid column name '_TRP_modes_of_transportation_Other'.
+Invalid column name '_TRP_modes_of_transportation_Other_text'.
+Invalid column name '_TRP_Transit_stopover'.
+Invalid column name '_TRP_Other_travel_Information'.
+Invalid column name '_TRP_Other_travel_Information_Notes'.
+Invalid column name '_OTI_1_Date'.
+Invalid column name '_OTI_1_Seat_Cabin'.
+Invalid column name '_OTI_1_Carrier'.
+Invalid column name '_OTI_1_Departed_from'.
+Invalid column name '_OTI_1_Flight'.
+Invalid column name '_OTI_1_Arrived_in'.
+Invalid column name '_OTI_2_Date'.
+Invalid column name '_OTI_2_Seat_Cabin'.
+Invalid column name '_OTI_2_Carrier'.
+Invalid column name '_OTI_2_Departed_from'.
+Invalid column name '_OTI_2_Flight'.
+Invalid column name '_OTI_2_Arrived_in'.
+Invalid column name '_OTI_3_Date'.
+Invalid column name '_OTI_3_Seat_Cabin'.
+Invalid column name '_OTI_3_Carrier'.
+Invalid column name '_OTI_3_Departed_from'.
+Invalid column name '_OTI_3_Flight'.
+Invalid column name '_OTI_3_Arrived_in'.
+Invalid column name '_OTI_4_Date'.
+Invalid column name '_OTI_4_Seat_Cabin'.
+Invalid column name '_OTI_4_Carrier'.
+Invalid column name '_OTI_4_Departed_from'.
+Invalid column name '_OTI_4_Flight'.
+Invalid column name '_OTI_4_Arrived_in'.
+Invalid column name '_PRH_2D_contact_with_possible_COVID_19'.
+Invalid column name '_PRH_2D_contact_with_possible_COVID_19_specify'.
+Invalid column name '_PRH_2D_Date_of_last_contact'.
+Invalid column name '_PRH_2D_Likely_source_of_infection'.
+Invalid column name '_PRH_2D_Likely_source_of_infection_Locally_Acquired_Details'.
+Invalid column name '_CP_3A_person_have_symptoms'.
+Invalid column name '_CP_3A_person_have_symptoms_onset_date'.
+Invalid column name '_CP_3A_duration_symptoms'.
+Invalid column name '_CP_3B_ARDS'.
+Invalid column name '_CP_3B_ARDS_onset_date'.
+Invalid column name '_CP_3B_ARDS_XRay'.
+Invalid column name '_CP_3B_Diarrhea'.
+Invalid column name '_CP_3B_Diarrhea_onset_date'.
+Invalid column name '_CP_3B_loss_of_Taste_Smell'.
+Invalid column name '_CP_3B_loss_of_Taste_Smell_onset_date'.
+Invalid column name '_CP_3B_Fever'.
+Invalid column name '_CP_3B_Fever_high_temperature'.
+Invalid column name '_CP_3B_feverish_selfreport'.
+Invalid column name '_CP_3B_feverish_selfreport_where_when'.
+Invalid column name '_CP_3B_Pneumonia'.
+Invalid column name '_CP_3B_Pneumonia_onset_date'.
+Invalid column name '_CP_3B_Pneumonia_XRay'.
+Invalid column name '_CP_3B_Arthralgia'.
+Invalid column name '_CP_3B_Arthralgia_onset_date'.
+Invalid column name '_CP_3B_Cough'.
+Invalid column name '_CP_3B_Cough_onset_date'.
+Invalid column name '_CP_3B_Conjunctivitis'.
+Invalid column name '_CP_3B_Conjunctivitis_onset_date'.
+Invalid column name '_CP_3B_Fatigue'.
+Invalid column name '_CP_3B_Fatigue_onset_date'.
+Invalid column name '_CP_3B_Chills_rigors'.
+Invalid column name '_CP_3B_Chills_rigors_onset_date'.
+Invalid column name '_CP_3B_Headache'.
+Invalid column name '_CP_3B_Headache_onset_date'.
+Invalid column name '_CP_3B_Malaise'.
+Invalid column name '_CP_3B_Malaise_onset_date'.
+Invalid column name '_CP_3B_Myalgia'.
+Invalid column name '_CP_3B_Myalgia_onset_date'.
+Invalid column name '_CP_3B_Nausea'.
+Invalid column name '_CP_3B_Nausea_onset_date'.
+Invalid column name '_CP_3B_Pneumonitis'.
+Invalid column name '_CP_3B_Pneumonitis_onset_date'.
+Invalid column name '_CP_3B_Rhinorrhea'.
+Invalid column name '_CP_3B_Rhinorrhea_onset_date'.
+Invalid column name '_CP_3B_Shortness_of_breath'.
+Invalid column name '_CP_3B_Shortness_of_breath_onset_date'.
+Invalid column name '_CP_3B_Sore_throat'.
+Invalid column name '_CP_3B_Sore_throat_onset_date'.
+Invalid column name '_CP_3B_Runny_stuffynose'.
+Invalid column name '_CP_3B_Runny_stuffynose_onset_date'.
+Invalid column name '_CP_3B_Muscle_bodyaches'.
+Invalid column name '_CP_3B_Muscle_bodyaches_onset_date'.
+Invalid column name '_CP_3B_Vomiting'.
+Invalid column name '_CP_3B_Vomiting_onset_date'.
+Invalid column name '_CP_3B_Sneezing'.
+Invalid column name '_CP_3B_Sneezing_onset_date'.
+Invalid column name '_CP_3B_Other_symptoms'.
+Invalid column name '_CP_3B_Clinical_notes'.
+Invalid column name '_CP_3C_person_hospitalized'.
+Invalid column name '_CP_3C_person_hospitalized_phone_number_hospital'.
+Invalid column name '_CP_3C_Admitted_ICU_HDU'.
+Invalid column name '_CP_3C_Admitted_ICU_HDU_number_of_days'.
+Invalid column name '_CP_3C_Oxygen_Therapy_reqd'.
+Invalid column name '_CP_3C_Intubation_reqd'.
+Invalid column name '_CP_3C_Mechanical_incubation_reqd'.
+Invalid column name '_CP_3C_Hospital_medical_record_chart_number'.
+Invalid column name '_CP_3D_1_Medication_administered'.
+Invalid column name '_CP_3D_1_Dose'.
+Invalid column name '_CP_3D_1_Comments'.
+Invalid column name '_CP_3D_2_Medication_administered'.
+Invalid column name '_CP_3D_2_Dose'.
+Invalid column name '_CP_3D_2_Comments'.
+Invalid column name '_CP_3D_3_Medication_administered'.
+Invalid column name '_CP_3D_3_Dose'.
+Invalid column name '_CP_3D_3_Comments'.
+Invalid column name '_CP_3D_4_Medication_administered'.
+Invalid column name '_CP_3D_4_Dose'.
+Invalid column name '_CP_3D_4_Comments'.
+Invalid column name '_CP_3D_5_Medication_administered'.
+Invalid column name '_CP_3D_5_Dose'.
+Invalid column name '_CP_3D_5_Comments'.
+Invalid column name '_CP_3D_6_Medication_administered'.
+Invalid column name '_CP_3D_6_Dose'.
+Invalid column name '_CP_3D_6_Comments'.
+Invalid column name '_CP_3D_7_Medication_administered'.
+Invalid column name '_CP_3D_7_Dose'.
+Invalid column name '_CP_3D_7_Comments'.
+Invalid column name '_CP_3E_outcome_of_the_case'.
+Invalid column name '_CP_3E_outcome_of_the_case_date_of_death'.
+Invalid column name '_CP_3E_death_due_to_COVID_19'.
+Invalid column name '_CP_3E_death_due_to_other_cause'.
+Invalid column name '_CP_3EE_No_risk_medical_conditions'.
+Invalid column name '_CP_3EE_Cardiac_disease'.
+Invalid column name '_CP_3EE_Chronic_lung_disease'.
+Invalid column name '_CP_3EE_Haemoglobinopathies'.
+Invalid column name '_CP_3EE_Diabetes'.
+Invalid column name '_CP_3EE_Diabetes_dialysis'.
+Invalid column name '_CP_3EE_Immunosuppressive_condition'.
+Invalid column name '_CP_3EE_Immunosuppressive_condition_specify'.
+Invalid column name '_CP_3EE_Liver_disease'.
+Invalid column name '_CP_3EE_Metabolic_disease'.
+Invalid column name '_CP_3EE_Neurological_disorder'.
+Invalid column name '_CP_3EE_Obesity'.
+Invalid column name '_CP_3EE_Renal_disease'.
+Invalid column name '_CP_3EE_Other_risk_medical_condition'.
+Invalid column name '_CP_3EE_Other_risk_medical_condition_specify'.
+Invalid column name '_CP_3EE_Notes'.
+Invalid column name '_CP_3F_currently_pregnant'.
+Invalid column name '_CP_3F_currently_pregnant_number_of_weeks_gestation'.
+Invalid column name '_CP_3F_current_smoker'.
+Invalid column name '_CP_3F_current_smoker_year'.
+Invalid column name '_CP_3F_current_smoker_pack_per_Week'.
+Invalid column name '_CP_3F_consume_alcohol'.
+Invalid column name '_CP_3F_drinks_per_week'.
+Invalid column name '_PCI_4A_Participants_blood_type'.
+Invalid column name '_PCI_4A_Participants_Weight'.
+Invalid column name '_PCI_4A_Participants_Height'.
+Invalid column name '_PCI_4B_Hepatitis_B_type'.
+Invalid column name '_PCI_4B_Hepatitis_B_date_given'.
+Invalid column name '_PCI_4B_Hepatitis_B_administered_by'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_type'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_date_given'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_administered_by'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_type'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_date_given'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_administered_by'.
+Invalid column name '_PCI_4B_Pneumococcal_type'.
+Invalid column name '_PCI_4B_Pneumococcal_date_given'.
+Invalid column name '_PCI_4B_Pneumococcal_administered_by'.
+Invalid column name '_PCI_4B_Polio_type'.
+Invalid column name '_PCI_4B_Polio_date_given'.
+Invalid column name '_PCI_4B_Polio_administered_by'.
+Invalid column name '_PCI_4B_Rotavirus_type'.
+Invalid column name '_PCI_4B_Rotavirus_date_given'.
+Invalid column name '_PCI_4B_Rotavirus_administered_by'.
+Invalid column name '_PCI_4B_Measles_type'.
+Invalid column name '_PCI_4B_Measles_date_given'.
+Invalid column name '_PCI_4B_Measles_administered_by'.
+Invalid column name '_PCI_4B_Varicella_type'.
+Invalid column name '_PCI_4B_Varicella_date_given'.
+Invalid column name '_PCI_4B_Varicella_administered_by'.
+Invalid column name '_PCI_4B_Hepatitis_A_type'.
+Invalid column name '_PCI_4B_Hepatitis_A_date_given'.
+Invalid column name '_PCI_4B_Hepatitis_A_administered_by'.
+Invalid column name '_PCI_4B_Meningococcal_type'.
+Invalid column name '_PCI_4B_Meningococcal_date_given'.
+Invalid column name '_PCI_4B_Meningococcal_administered_by'.
+Invalid column name '_PCI_4B_Human_papillomavirus_type'.
+Invalid column name '_PCI_4B_Human_papillomavirus_date_given'.
+Invalid column name '_PCI_4B_Human_papillomavirus_administered_by'.
+Invalid column name '_PCI_4B_Zoster_type'.
+Invalid column name '_PCI_4B_Zoster_date_given'.
+Invalid column name '_PCI_4B_Zoster_administered_by'.
+Invalid column name '_PCI_4B_Influenza_type'.
+Invalid column name '_PCI_4B_Influenza_date_given'.
+Invalid column name '_PCI_4B_Influenza_administered_by'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_type'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_date_given'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_administered_by'.
+Invalid column name '_PCI_4C_Asthma_wheezing_YesNo'.
+Invalid column name '_PCI_4C_Asthma_wheezing_OnsetAge'.
+Invalid column name '_PCI_4C_Asthma_wheezing_Severity'.
+Invalid column name '_PCI_4C_Asthma_wheezing_Comments'.
+Invalid column name '_PCI_4C_Other_breathing_problems_YesNo'.
+Invalid column name '_PCI_4C_Other_breathing_problems_OnsetAge'.
+Invalid column name '_PCI_4C_Other_breathing_problems_Severity'.
+Invalid column name '_PCI_4C_Other_breathing_problems_Comments'.
+Invalid column name '_PCI_4C_Sinus_trouble_YesNo'.
+Invalid column name '_PCI_4C_Sinus_trouble_OnsetAge'.
+Invalid column name '_PCI_4C_Sinus_trouble_Severity'.
+Invalid column name '_PCI_4C_Sinus_trouble_Comments'.
+Invalid column name '_PCI_4C_Hay_fever_YesNo'.
+Invalid column name '_PCI_4C_Hay_fever_OnsetAge'.
+Invalid column name '_PCI_4C_Hay_fever_Severity'.
+Invalid column name '_PCI_4C_Hay_fever_Comments'.
+Invalid column name '_PCI_4C_Hives_YesNo'.
+Invalid column name '_PCI_4C_Hives_OnsetAge'.
+Invalid column name '_PCI_4C_Hives_Severity'.
+Invalid column name '_PCI_4C_Hives_Comments'.
+Invalid column name '_PCI_4C_Eczema_YesNo'.
+Invalid column name '_PCI_4C_Eczema_OnsetAge'.
+Invalid column name '_PCI_4C_Eczema_Severity'.
+Invalid column name '_PCI_4C_Eczema_Comments'.
+Invalid column name '_PCI_4C_Frequent_infections_YesNo'.
+Invalid column name '_PCI_4C_Frequent_infections_OnsetAge'.
+Invalid column name '_PCI_4C_Frequent_infections_Severity'.
+Invalid column name '_PCI_4C_Frequent_infections_Comments'.
+Invalid column name '_PCI_4C_Food_reactions_YesNo'.
+Invalid column name '_PCI_4C_Food_reactions_OnsetAge'.
+Invalid column name '_PCI_4C_Food_reactions_Severity'.
+Invalid column name '_PCI_4C_Food_reactions_Comments'.
+Invalid column name '_PCI_4C_Drug_reactions_YesNo'.
+Invalid column name '_PCI_4C_Drug_reactions_OnsetAge'.
+Invalid column name '_PCI_4C_Drug_reactions_Severity'.
+Invalid column name '_PCI_4C_Drug_reactions_Comments'.
+Invalid column name '_PCI_4C_Others_YesNo'.
+Invalid column name '_PCI_4C_Others_Name'.
+Invalid column name '_PCI_4C_Others_OnsetAge'.
+Invalid column name '_PCI_4C_Others_Severity'.
+Invalid column name '_PCI_4C_Others_Comments'.
+Invalid column name '_PCI_4D_1_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_1_Viral_Infection_year'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_2_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_2_Viral_Infection_year'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_3_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_3_Viral_Infection_year'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_4_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_4_Viral_Infection_year'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_5_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_5_Viral_Infection_year'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_6_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_6_Viral_Infection_year'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_7_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_7_Viral_Infection_year'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_8_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_8_Viral_Infection_year'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Comments'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms_date'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms_detail_of_illness'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms_date'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms_detail_of_illness'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms_date'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms_detail_of_illness'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations_others'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations_Last_date'.
+Invalid column name '_PC_6A_infection_likely_acquired_in_workplace'.
+Invalid column name '_PC_6A_Description_of_occupation'.
+Invalid column name '_PC_6A_Employer_facility_details'.
+Invalid column name '_PC_6A_Employer_facility_address'.
+Invalid column name '_PC_6A_Employer_facility_emirates'.
+Invalid column name '_PC_6A_Employer_facility_email'.
+Invalid column name '_PC_6A_Employer_facility_phone'.
+Invalid column name '_PC_6A_Employer_facility_contact_name'.
+Invalid column name '_PC_6B_infectious_visited_venues_doctor'.
+Invalid column name '_PC_6B_infectious_visited_venues_Schools'.
+Invalid column name '_PC_6B_infectious_visited_venues_Aged_care_facility'.
+Invalid column name '_PC_6B_infectious_visited_venues_Transport'.
+Invalid column name '_PC_6B_infectious_visited_venues_Concert'.
+Invalid column name '_PC_6B_infectious_visited_venues_Office'.
+Invalid column name '_PC_6B_infectious_visited_venues_other'.
+Invalid column name '_PC_6B_infectious_visited_venues_other_detail'.
+Invalid column name '_PC_6C_infectious_close_contact'.
+Invalid column name '_PC_6C_infectious_close_contact_details'.
+Invalid column name '_LD_7_sample_type'.
+Invalid column name '_LD_7_sample_type_other'.
+Invalid column name '_LD_7_sample_received_date'.
+Invalid column name '_LD_7_storage'.
+Invalid column name '_LD_7_sample_volume'.
+Invalid column name '_LD_7_project_code'.
+Invalid column name '_LD_7_test_code'.
+Invalid column name '_LD_7_comments'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at KU.Repositories.Implementations.QuestionnaireRepository.GetReport10(Int64 TemplateID, String SectionID, String AttributeName, String BeginPeriod, String EndPeriod, String CollectedBy, String CollectedPoint, String Nationality, String Gender, String Diabetes, String SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, String filter) in C:\TCIT\Khalifa University\Khalifa\KU.Repositories\Implementations\QuestionnaireRepository.cs:line 468
+   at KU.Services.Implementations.FormService.GetReport10(Int64 TemplateID, String SectionID, String AttributeName, String BeginPeriod, String EndPeriod, String CollectedBy, String CollectedPoint, String Nationality, String Gender, String Diabetes, String SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, String filter) in C:\TCIT\Khalifa University\Khalifa\KU.Services\Implementations\FormService.cs:line 231
+   at KU.WebAPI.Controllers.ReportController.GetReport(Int64 TemplateID, String SectionID, String AttributeName, String BeginPeriod, String EndPeriod, String CollectedBy, String CollectedPoint, String Nationality, String Gender, String Diabetes, String SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, String filter) in C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\Controllers\ReportController.cs:line 101
+ClientConnectionId:1fa52354-7569-438f-a88c-0d030371091e
+Error Number:207,State:1,Class:16
+2020-05-06T17:10:34.6063897+04:00 80000018-0002-f900-b63f-84710c7967bb [ERR] Something went wrong ex: Invalid column name '_sample'.
+Invalid column name '_depository_ID'.
+Invalid column name '_projecttitle'.
+Invalid column name '_principalinvestigator'.
+Invalid column name '_collection_point'.
+Invalid column name '_collected_by'.
+Invalid column name '_collected_date'.
+Invalid column name '_indifamily'.
+Invalid column name '_family_number'.
+Invalid column name '_family_yes'.
+Invalid column name '_interpreted_used'.
+Invalid column name '_interpreted_language'.
+Invalid column name '_interview_reason_contact_with_known_case'.
+Invalid column name '_interview_reason_Overseas_travel'.
+Invalid column name '_interview_reason_Reported_recent_risk_exposure_contact'.
+Invalid column name '_interview_reason_Occupational_exposure'.
+Invalid column name '_interview_reason_Symptomatic_of_disease'.
+Invalid column name '_interview_reason_other'.
+Invalid column name '_interview_reason_other_remarks'.
+Invalid column name '_per_firstname'.
+Invalid column name '_per_middlename'.
+Invalid column name '_per_lastname'.
+Invalid column name '_gender'.
+Invalid column name '_emiratesid'.
+Invalid column name '_nationality'.
+Invalid column name '_dob'.
+Invalid column name '_PlaceOfBirth'.
+Invalid column name '_city'.
+Invalid column name '_phone'.
+Invalid column name '_email'.
+Invalid column name '_ethnicity'.
+Invalid column name '_ethnicity_mixed_specify_text'.
+Invalid column name '_ethnicity_others_text'.
+Invalid column name '_Address'.
+Invalid column name '_Address_type'.
+Invalid column name '_Address_type_other'.
+Invalid column name '_maritalstatus'.
+Invalid column name '_marriage_con'.
+Invalid column name '_pers_NumberofChildren'.
+Invalid column name '_pers_Boys'.
+Invalid column name '_pers_Boys_ages'.
+Invalid column name '_pers_Girls'.
+Invalid column name '_pers_Girls_ages'.
+Invalid column name '_pers_Numberofwives'.
+Invalid column name '_eduLevel'.
+Invalid column name '_employment_status'.
+Invalid column name '_TRP_traveled_outside'.
+Invalid column name '_TRP_traveled_outside_country'.
+Invalid column name '_TRP_traveled_outside_city'.
+Invalid column name '_TRP_flight_no'.
+Invalid column name '_TRP_seat_no'.
+Invalid column name '_TRP_Arrival_Date'.
+Invalid column name '_TRP_Departure_Date'.
+Invalid column name '_TRP_travel_with_organized_tour'.
+Invalid column name '_TRP_Type_of_accommodation'.
+Invalid column name '_TRP_Type_of_accommodation_other'.
+Invalid column name '_TRP_Able_to_enter_travel_specific_details'.
+Invalid column name '_TRP_modes_of_transportation_Airplane'.
+Invalid column name '_TRP_modes_of_transportation_Ship'.
+Invalid column name '_TRP_modes_of_transportation_Bus'.
+Invalid column name '_TRP_modes_of_transportation_Train'.
+Invalid column name '_TRP_modes_of_transportation_Other'.
+Invalid column name '_TRP_modes_of_transportation_Other_text'.
+Invalid column name '_TRP_Transit_stopover'.
+Invalid column name '_TRP_Other_travel_Information'.
+Invalid column name '_TRP_Other_travel_Information_Notes'.
+Invalid column name '_OTI_1_Date'.
+Invalid column name '_OTI_1_Seat_Cabin'.
+Invalid column name '_OTI_1_Carrier'.
+Invalid column name '_OTI_1_Departed_from'.
+Invalid column name '_OTI_1_Flight'.
+Invalid column name '_OTI_1_Arrived_in'.
+Invalid column name '_OTI_2_Date'.
+Invalid column name '_OTI_2_Seat_Cabin'.
+Invalid column name '_OTI_2_Carrier'.
+Invalid column name '_OTI_2_Departed_from'.
+Invalid column name '_OTI_2_Flight'.
+Invalid column name '_OTI_2_Arrived_in'.
+Invalid column name '_OTI_3_Date'.
+Invalid column name '_OTI_3_Seat_Cabin'.
+Invalid column name '_OTI_3_Carrier'.
+Invalid column name '_OTI_3_Departed_from'.
+Invalid column name '_OTI_3_Flight'.
+Invalid column name '_OTI_3_Arrived_in'.
+Invalid column name '_OTI_4_Date'.
+Invalid column name '_OTI_4_Seat_Cabin'.
+Invalid column name '_OTI_4_Carrier'.
+Invalid column name '_OTI_4_Departed_from'.
+Invalid column name '_OTI_4_Flight'.
+Invalid column name '_OTI_4_Arrived_in'.
+Invalid column name '_PRH_2D_contact_with_possible_COVID_19'.
+Invalid column name '_PRH_2D_contact_with_possible_COVID_19_specify'.
+Invalid column name '_PRH_2D_Date_of_last_contact'.
+Invalid column name '_PRH_2D_Likely_source_of_infection'.
+Invalid column name '_PRH_2D_Likely_source_of_infection_Locally_Acquired_Details'.
+Invalid column name '_CP_3A_person_have_symptoms'.
+Invalid column name '_CP_3A_person_have_symptoms_onset_date'.
+Invalid column name '_CP_3A_duration_symptoms'.
+Invalid column name '_CP_3B_ARDS'.
+Invalid column name '_CP_3B_ARDS_onset_date'.
+Invalid column name '_CP_3B_ARDS_XRay'.
+Invalid column name '_CP_3B_Diarrhea'.
+Invalid column name '_CP_3B_Diarrhea_onset_date'.
+Invalid column name '_CP_3B_loss_of_Taste_Smell'.
+Invalid column name '_CP_3B_loss_of_Taste_Smell_onset_date'.
+Invalid column name '_CP_3B_Fever'.
+Invalid column name '_CP_3B_Fever_high_temperature'.
+Invalid column name '_CP_3B_feverish_selfreport'.
+Invalid column name '_CP_3B_feverish_selfreport_where_when'.
+Invalid column name '_CP_3B_Pneumonia'.
+Invalid column name '_CP_3B_Pneumonia_onset_date'.
+Invalid column name '_CP_3B_Pneumonia_XRay'.
+Invalid column name '_CP_3B_Arthralgia'.
+Invalid column name '_CP_3B_Arthralgia_onset_date'.
+Invalid column name '_CP_3B_Cough'.
+Invalid column name '_CP_3B_Cough_onset_date'.
+Invalid column name '_CP_3B_Conjunctivitis'.
+Invalid column name '_CP_3B_Conjunctivitis_onset_date'.
+Invalid column name '_CP_3B_Fatigue'.
+Invalid column name '_CP_3B_Fatigue_onset_date'.
+Invalid column name '_CP_3B_Chills_rigors'.
+Invalid column name '_CP_3B_Chills_rigors_onset_date'.
+Invalid column name '_CP_3B_Headache'.
+Invalid column name '_CP_3B_Headache_onset_date'.
+Invalid column name '_CP_3B_Malaise'.
+Invalid column name '_CP_3B_Malaise_onset_date'.
+Invalid column name '_CP_3B_Myalgia'.
+Invalid column name '_CP_3B_Myalgia_onset_date'.
+Invalid column name '_CP_3B_Nausea'.
+Invalid column name '_CP_3B_Nausea_onset_date'.
+Invalid column name '_CP_3B_Pneumonitis'.
+Invalid column name '_CP_3B_Pneumonitis_onset_date'.
+Invalid column name '_CP_3B_Rhinorrhea'.
+Invalid column name '_CP_3B_Rhinorrhea_onset_date'.
+Invalid column name '_CP_3B_Shortness_of_breath'.
+Invalid column name '_CP_3B_Shortness_of_breath_onset_date'.
+Invalid column name '_CP_3B_Sore_throat'.
+Invalid column name '_CP_3B_Sore_throat_onset_date'.
+Invalid column name '_CP_3B_Runny_stuffynose'.
+Invalid column name '_CP_3B_Runny_stuffynose_onset_date'.
+Invalid column name '_CP_3B_Muscle_bodyaches'.
+Invalid column name '_CP_3B_Muscle_bodyaches_onset_date'.
+Invalid column name '_CP_3B_Vomiting'.
+Invalid column name '_CP_3B_Vomiting_onset_date'.
+Invalid column name '_CP_3B_Sneezing'.
+Invalid column name '_CP_3B_Sneezing_onset_date'.
+Invalid column name '_CP_3B_Other_symptoms'.
+Invalid column name '_CP_3B_Clinical_notes'.
+Invalid column name '_CP_3C_person_hospitalized'.
+Invalid column name '_CP_3C_person_hospitalized_phone_number_hospital'.
+Invalid column name '_CP_3C_Admitted_ICU_HDU'.
+Invalid column name '_CP_3C_Admitted_ICU_HDU_number_of_days'.
+Invalid column name '_CP_3C_Oxygen_Therapy_reqd'.
+Invalid column name '_CP_3C_Intubation_reqd'.
+Invalid column name '_CP_3C_Mechanical_incubation_reqd'.
+Invalid column name '_CP_3C_Hospital_medical_record_chart_number'.
+Invalid column name '_CP_3D_1_Medication_administered'.
+Invalid column name '_CP_3D_1_Dose'.
+Invalid column name '_CP_3D_1_Comments'.
+Invalid column name '_CP_3D_2_Medication_administered'.
+Invalid column name '_CP_3D_2_Dose'.
+Invalid column name '_CP_3D_2_Comments'.
+Invalid column name '_CP_3D_3_Medication_administered'.
+Invalid column name '_CP_3D_3_Dose'.
+Invalid column name '_CP_3D_3_Comments'.
+Invalid column name '_CP_3D_4_Medication_administered'.
+Invalid column name '_CP_3D_4_Dose'.
+Invalid column name '_CP_3D_4_Comments'.
+Invalid column name '_CP_3D_5_Medication_administered'.
+Invalid column name '_CP_3D_5_Dose'.
+Invalid column name '_CP_3D_5_Comments'.
+Invalid column name '_CP_3D_6_Medication_administered'.
+Invalid column name '_CP_3D_6_Dose'.
+Invalid column name '_CP_3D_6_Comments'.
+Invalid column name '_CP_3D_7_Medication_administered'.
+Invalid column name '_CP_3D_7_Dose'.
+Invalid column name '_CP_3D_7_Comments'.
+Invalid column name '_CP_3E_outcome_of_the_case'.
+Invalid column name '_CP_3E_outcome_of_the_case_date_of_death'.
+Invalid column name '_CP_3E_death_due_to_COVID_19'.
+Invalid column name '_CP_3E_death_due_to_other_cause'.
+Invalid column name '_CP_3EE_No_risk_medical_conditions'.
+Invalid column name '_CP_3EE_Cardiac_disease'.
+Invalid column name '_CP_3EE_Chronic_lung_disease'.
+Invalid column name '_CP_3EE_Haemoglobinopathies'.
+Invalid column name '_CP_3EE_Diabetes'.
+Invalid column name '_CP_3EE_Diabetes_dialysis'.
+Invalid column name '_CP_3EE_Immunosuppressive_condition'.
+Invalid column name '_CP_3EE_Immunosuppressive_condition_specify'.
+Invalid column name '_CP_3EE_Liver_disease'.
+Invalid column name '_CP_3EE_Metabolic_disease'.
+Invalid column name '_CP_3EE_Neurological_disorder'.
+Invalid column name '_CP_3EE_Obesity'.
+Invalid column name '_CP_3EE_Renal_disease'.
+Invalid column name '_CP_3EE_Other_risk_medical_condition'.
+Invalid column name '_CP_3EE_Other_risk_medical_condition_specify'.
+Invalid column name '_CP_3EE_Notes'.
+Invalid column name '_CP_3F_currently_pregnant'.
+Invalid column name '_CP_3F_currently_pregnant_number_of_weeks_gestation'.
+Invalid column name '_CP_3F_current_smoker'.
+Invalid column name '_CP_3F_current_smoker_year'.
+Invalid column name '_CP_3F_current_smoker_pack_per_Week'.
+Invalid column name '_CP_3F_consume_alcohol'.
+Invalid column name '_CP_3F_drinks_per_week'.
+Invalid column name '_PCI_4A_Participants_blood_type'.
+Invalid column name '_PCI_4A_Participants_Weight'.
+Invalid column name '_PCI_4A_Participants_Height'.
+Invalid column name '_PCI_4B_Hepatitis_B_type'.
+Invalid column name '_PCI_4B_Hepatitis_B_date_given'.
+Invalid column name '_PCI_4B_Hepatitis_B_administered_by'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_type'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_date_given'.
+Invalid column name '_PCI_4B_Deptheria_Tetanus_Pertussis_administered_by'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_type'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_date_given'.
+Invalid column name '_PCI_4B_Haemophilus_influenza_type_b_administered_by'.
+Invalid column name '_PCI_4B_Pneumococcal_type'.
+Invalid column name '_PCI_4B_Pneumococcal_date_given'.
+Invalid column name '_PCI_4B_Pneumococcal_administered_by'.
+Invalid column name '_PCI_4B_Polio_type'.
+Invalid column name '_PCI_4B_Polio_date_given'.
+Invalid column name '_PCI_4B_Polio_administered_by'.
+Invalid column name '_PCI_4B_Rotavirus_type'.
+Invalid column name '_PCI_4B_Rotavirus_date_given'.
+Invalid column name '_PCI_4B_Rotavirus_administered_by'.
+Invalid column name '_PCI_4B_Measles_type'.
+Invalid column name '_PCI_4B_Measles_date_given'.
+Invalid column name '_PCI_4B_Measles_administered_by'.
+Invalid column name '_PCI_4B_Varicella_type'.
+Invalid column name '_PCI_4B_Varicella_date_given'.
+Invalid column name '_PCI_4B_Varicella_administered_by'.
+Invalid column name '_PCI_4B_Hepatitis_A_type'.
+Invalid column name '_PCI_4B_Hepatitis_A_date_given'.
+Invalid column name '_PCI_4B_Hepatitis_A_administered_by'.
+Invalid column name '_PCI_4B_Meningococcal_type'.
+Invalid column name '_PCI_4B_Meningococcal_date_given'.
+Invalid column name '_PCI_4B_Meningococcal_administered_by'.
+Invalid column name '_PCI_4B_Human_papillomavirus_type'.
+Invalid column name '_PCI_4B_Human_papillomavirus_date_given'.
+Invalid column name '_PCI_4B_Human_papillomavirus_administered_by'.
+Invalid column name '_PCI_4B_Zoster_type'.
+Invalid column name '_PCI_4B_Zoster_date_given'.
+Invalid column name '_PCI_4B_Zoster_administered_by'.
+Invalid column name '_PCI_4B_Influenza_type'.
+Invalid column name '_PCI_4B_Influenza_date_given'.
+Invalid column name '_PCI_4B_Influenza_administered_by'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_type'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_date_given'.
+Invalid column name '_PCI_4B_Bacillus_Calmette_administered_by'.
+Invalid column name '_PCI_4C_Asthma_wheezing_YesNo'.
+Invalid column name '_PCI_4C_Asthma_wheezing_OnsetAge'.
+Invalid column name '_PCI_4C_Asthma_wheezing_Severity'.
+Invalid column name '_PCI_4C_Asthma_wheezing_Comments'.
+Invalid column name '_PCI_4C_Other_breathing_problems_YesNo'.
+Invalid column name '_PCI_4C_Other_breathing_problems_OnsetAge'.
+Invalid column name '_PCI_4C_Other_breathing_problems_Severity'.
+Invalid column name '_PCI_4C_Other_breathing_problems_Comments'.
+Invalid column name '_PCI_4C_Sinus_trouble_YesNo'.
+Invalid column name '_PCI_4C_Sinus_trouble_OnsetAge'.
+Invalid column name '_PCI_4C_Sinus_trouble_Severity'.
+Invalid column name '_PCI_4C_Sinus_trouble_Comments'.
+Invalid column name '_PCI_4C_Hay_fever_YesNo'.
+Invalid column name '_PCI_4C_Hay_fever_OnsetAge'.
+Invalid column name '_PCI_4C_Hay_fever_Severity'.
+Invalid column name '_PCI_4C_Hay_fever_Comments'.
+Invalid column name '_PCI_4C_Hives_YesNo'.
+Invalid column name '_PCI_4C_Hives_OnsetAge'.
+Invalid column name '_PCI_4C_Hives_Severity'.
+Invalid column name '_PCI_4C_Hives_Comments'.
+Invalid column name '_PCI_4C_Eczema_YesNo'.
+Invalid column name '_PCI_4C_Eczema_OnsetAge'.
+Invalid column name '_PCI_4C_Eczema_Severity'.
+Invalid column name '_PCI_4C_Eczema_Comments'.
+Invalid column name '_PCI_4C_Frequent_infections_YesNo'.
+Invalid column name '_PCI_4C_Frequent_infections_OnsetAge'.
+Invalid column name '_PCI_4C_Frequent_infections_Severity'.
+Invalid column name '_PCI_4C_Frequent_infections_Comments'.
+Invalid column name '_PCI_4C_Food_reactions_YesNo'.
+Invalid column name '_PCI_4C_Food_reactions_OnsetAge'.
+Invalid column name '_PCI_4C_Food_reactions_Severity'.
+Invalid column name '_PCI_4C_Food_reactions_Comments'.
+Invalid column name '_PCI_4C_Drug_reactions_YesNo'.
+Invalid column name '_PCI_4C_Drug_reactions_OnsetAge'.
+Invalid column name '_PCI_4C_Drug_reactions_Severity'.
+Invalid column name '_PCI_4C_Drug_reactions_Comments'.
+Invalid column name '_PCI_4C_Others_YesNo'.
+Invalid column name '_PCI_4C_Others_Name'.
+Invalid column name '_PCI_4C_Others_OnsetAge'.
+Invalid column name '_PCI_4C_Others_Severity'.
+Invalid column name '_PCI_4C_Others_Comments'.
+Invalid column name '_PCI_4D_1_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_1_Viral_Infection_year'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_1_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_2_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_2_Viral_Infection_year'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_2_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_3_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_3_Viral_Infection_year'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_3_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_4_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_4_Viral_Infection_year'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_4_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_5_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_5_Viral_Infection_year'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_5_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_6_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_6_Viral_Infection_year'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_6_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_7_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_7_Viral_Infection_year'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_7_Viral_Infection_Comments'.
+Invalid column name '_PCI_4D_8_Viral_Infection_YesNo'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Name'.
+Invalid column name '_PCI_4D_8_Viral_Infection_year'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Severity'.
+Invalid column name '_PCI_4D_8_Viral_Infection_Comments'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms_date'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_COVID_19_symptoms_detail_of_illness'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms_date'.
+Invalid column name '_ES_5A_present_to_hospital_in_14_days_other_symptoms_detail_of_illness'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms_date'.
+Invalid column name '_ES_5A_present_to_other_healthcare_facility_in_14_days_COVID_19_symptoms_detail_of_illness'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations_others'.
+Invalid column name '_PC_6A_work_in_highrisk_occupations_Last_date'.
+Invalid column name '_PC_6A_infection_likely_acquired_in_workplace'.
+Invalid column name '_PC_6A_Description_of_occupation'.
+Invalid column name '_PC_6A_Employer_facility_details'.
+Invalid column name '_PC_6A_Employer_facility_address'.
+Invalid column name '_PC_6A_Employer_facility_emirates'.
+Invalid column name '_PC_6A_Employer_facility_email'.
+Invalid column name '_PC_6A_Employer_facility_phone'.
+Invalid column name '_PC_6A_Employer_facility_contact_name'.
+Invalid column name '_PC_6B_infectious_visited_venues_doctor'.
+Invalid column name '_PC_6B_infectious_visited_venues_Schools'.
+Invalid column name '_PC_6B_infectious_visited_venues_Aged_care_facility'.
+Invalid column name '_PC_6B_infectious_visited_venues_Transport'.
+Invalid column name '_PC_6B_infectious_visited_venues_Concert'.
+Invalid column name '_PC_6B_infectious_visited_venues_Office'.
+Invalid column name '_PC_6B_infectious_visited_venues_other'.
+Invalid column name '_PC_6B_infectious_visited_venues_other_detail'.
+Invalid column name '_PC_6C_infectious_close_contact'.
+Invalid column name '_PC_6C_infectious_close_contact_details'.
+Invalid column name '_LD_7_sample_type'.
+Invalid column name '_LD_7_sample_type_other'.
+Invalid column name '_LD_7_sample_received_date'.
+Invalid column name '_LD_7_storage'.
+Invalid column name '_LD_7_sample_volume'.
+Invalid column name '_LD_7_project_code'.
+Invalid column name '_LD_7_test_code'.
+Invalid column name '_LD_7_comments'. (f8acf48b)
+2020-05-06T17:10:34.6088337+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2040.8839ms. (50a9e262)
+2020-05-06T17:10:34.6115434+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2020-05-06T17:10:34.6152284+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)" in 2050.9092ms (afa2e885)
+2020-05-06T17:10:34.6175204+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:10:34.6199782+04:00 80000018-0002-f900-b63f-84710c7967bb [INF] Request finished in 2070.9322ms 500 application/json; charset=utf-8 (791a596a)
+2020-05-06T17:19:23.2294316+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44317/api/Form/Addformattributevalue application/json-patch+json 133 (ca22a1cb)
+2020-05-06T17:19:23.2335583+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T17:19:23.2389636+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (500cc934)
+2020-05-06T17:19:23.2450973+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"AddFormAttributeValues\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddFormAttributeValues(System.Collections.Generic.List`1[KU.Services.Interfaces.FormAttributeValueViewModel])" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:19:23.2489698+04:00 80000017-0001-fe00-b63f-84710c7967bb [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2020-05-06T17:19:23.2547611+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-06T17:19:23.2606293+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:19:24.8714345+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:19:25.3508093+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("393"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [FormAttributeValue] ([AttributeValue], [FormAttributeID], [SavedFormID])
+VALUES (@p0, @p1, @p2);
+SELECT [FormAttributeValueID]
+FROM [FormAttributeValue]
+WHERE @@ROWCOUNT = 1 AND [FormAttributeValueID] = scope_identity();" (0723d8ff)
+2020-05-06T17:19:25.3916211+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2127.4272ms. (50a9e262)
+2020-05-06T17:19:25.3950136+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Boolean"'. (8a1b66c8)
+2020-05-06T17:19:25.4024199+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" in 2150.2483ms (afa2e885)
+2020-05-06T17:19:25.4062256+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:19:25.4097628+04:00 80000017-0001-fe00-b63f-84710c7967bb [INF] Request finished in 2180.9638ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T17:19:52.2774200+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Report/Reports?TemplateID=11   (ca22a1cb)
+2020-05-06T17:19:52.2838977+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)"' (500cc934)
+2020-05-06T17:19:52.2881154+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetReport\", controller = \"Report\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetReport(Int64, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, Int32, Int32, Int32, Int32, System.String)" on controller "KU.WebAPI.Controllers.ReportController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:19:52.2922708+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:19:52.3005094+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:19:52.5186394+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("207"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64), @p5='?' (Size = 4000), @p6='?', @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?', @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SP_GETDATA @p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15" (0723d8ff)
+2020-05-06T17:19:52.7757940+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 480.1277ms. (50a9e262)
+2020-05-06T17:19:52.7782761+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"KU.Repositories.Models.QuestionnaireWrap10"'. (8a1b66c8)
+2020-05-06T17:19:54.2951122+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)" in 2002.8233ms (afa2e885)
+2020-05-06T17:19:54.2993484+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:19:54.3019802+04:00 80000056-0000-fe00-b63f-84710c7967bb [INF] Request finished in 2025.8782ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T17:20:13.5539336+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Report/ReportTotal?TemplateID=11   (ca22a1cb)
+2020-05-06T17:20:14.1824418+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)"' (500cc934)
+2020-05-06T17:20:14.1958165+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetReportTotal\", controller = \"Report\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetReportTotal(Int64, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, Int32, Int32, Int32, Int32, System.String)" on controller "KU.WebAPI.Controllers.ReportController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:20:14.2029573+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:20:14.2128090+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:20:15.7084976+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("1,467"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64), @p5='?' (Size = 4000), @p6='?', @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?', @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SP_GETDATA_Total @p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15" (0723d8ff)
+2020-05-06T17:20:15.7899398+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1573.3839ms. (50a9e262)
+2020-05-06T17:20:15.7928255+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KU.Repositories.Models.TotalRecords, KU.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-06T17:20:15.7995591+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)" in 1600.1815ms (afa2e885)
+2020-05-06T17:20:15.8023290+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:20:15.8048901+04:00 80000058-0000-fe00-b63f-84710c7967bb [INF] Request finished in 2252.7819ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-06T17:20:41.2224043+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Form/totalrecords?TemplateID=11   (ca22a1cb)
+2020-05-06T17:20:41.2265092+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.GetTotal (KU.WebAPI)"' (500cc934)
+2020-05-06T17:20:41.2327251+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetTotal\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetTotal(Int32, Int32, System.String)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2020-05-06T17:20:41.2400656+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.GetTotal (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2020-05-06T17:20:41.2493102+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2020-05-06T17:20:41.9409428+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("683"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""sp_gettotal @p0,@p1,@p2" (0723d8ff)
+2020-05-06T17:20:41.9465774+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.GetTotal (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 703.6574ms. (50a9e262)
+2020-05-06T17:20:41.9489713+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KU.Repositories.Models.TotalRecords, KU.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-05-06T17:20:41.9524114+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.GetTotal (KU.WebAPI)" in 716.8427ms (afa2e885)
+2020-05-06T17:20:41.9547092+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.GetTotal (KU.WebAPI)"' (99874f2b)
+2020-05-06T17:20:41.9571030+04:00 8000005a-0000-fe00-b63f-84710c7967bb [INF] Request finished in 735.9042ms 200 application/json; charset=utf-8 (791a596a)
