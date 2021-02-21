@@ -42,7 +42,8 @@ namespace KU.Repositories
         //      IQuestionnaire8Repository questionnaire8 { get; }
 
         ITotalRecordsRepository totalRecords { get; }
-   
+        IGenericResultRepository GenericResult { get; }
+
         IFormAttributeValue_filesRepository FormAttributeValue_files { get; }
 
         int SaveChanges();

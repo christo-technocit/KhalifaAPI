@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Cors;
-
+using Newtonsoft.Json;
 
 namespace KU.WebAPI.Controllers
 {
@@ -120,28 +120,55 @@ namespace KU.WebAPI.Controllers
             }
         }
 
+        //[HttpGet("QuestionnaireOLD")]
+        //public IActionResult GetSampleIDAll([FromQuery] Int32 SavedformID, Int32 TemplateID)
+        //{
+
+        //    try
+        //    {
+               
+
+        //        if (TemplateID == 1) { var all1 = formService.GetSampleID1(SavedformID); return Ok(all1); }
+        //        if (TemplateID == 2) { var all2 = formService.GetSampleID2(SavedformID); return Ok(all2); }
+        //        if (TemplateID == 4) { var all3 = formService.GetSampleID3(SavedformID); return Ok(all3); }
+        //        if (TemplateID == 5) { var all4 = formService.GetSampleID4(SavedformID); return Ok(all4); }
+        //        if (TemplateID == 6) { var all5 = formService.GetSampleID5(SavedformID); return Ok(all5); }
+        //        if (TemplateID == 7) { var all6 = formService.GetSampleID6(SavedformID); return Ok(all6); }
+        //        if (TemplateID == 8) { var all7 = formService.GetSampleID7(SavedformID); return Ok(all7); }
+        //        if (TemplateID == 9) { var all8 = formService.GetSampleID8(SavedformID); return Ok(all8); }
+        //        if (TemplateID == 10) { var all9 = formService.GetSampleID9(SavedformID); return Ok(all9); }
+        //     //   if (TemplateID == 10 && SectionID == 9) { var all9_9 = formService.GetSampleID9_9(SavedformID); return Ok(all9_9); }
+        //        if (TemplateID == 11) { var all10 = formService.GetSampleID10(SavedformID); return Ok(all10); }
+
+        //        var all = formService.GetSampleID1(SavedformID);
+        //        return Ok(all);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        logger.LogError($"Something went wrong: {ex }");
+        //        return StatusCode(500, ex.InnerException);
+        //        // return StatusCode(500, "Internal server error" );
+
+        //    }
+
+        //}
+
         [HttpGet("Questionnaire")]
-        public IActionResult GetSampleIDAll([FromQuery] Int32 SavedformID, Int32 TemplateID)
+        public IActionResult GetRecords([FromQuery]Int32 SavedformID, Int32 TemplateID, Int32 SectionID)
         {
 
             try
             {
-               
 
-                if (TemplateID == 1) { var all1 = formService.GetSampleID1(SavedformID); return Ok(all1); }
-                if (TemplateID == 2) { var all2 = formService.GetSampleID2(SavedformID); return Ok(all2); }
-                if (TemplateID == 4) { var all3 = formService.GetSampleID3(SavedformID); return Ok(all3); }
-                if (TemplateID == 5) { var all4 = formService.GetSampleID4(SavedformID); return Ok(all4); }
-                if (TemplateID == 6) { var all5 = formService.GetSampleID5(SavedformID); return Ok(all5); }
-                if (TemplateID == 7) { var all6 = formService.GetSampleID6(SavedformID); return Ok(all6); }
-                if (TemplateID == 8) { var all7 = formService.GetSampleID7(SavedformID); return Ok(all7); }
-                if (TemplateID == 9) { var all8 = formService.GetSampleID8(SavedformID); return Ok(all8); }
-                if (TemplateID == 10) { var all9 = formService.GetSampleID9(SavedformID); return Ok(all9); }
-             //   if (TemplateID == 10 && SectionID == 9) { var all9_9 = formService.GetSampleID9_9(SavedformID); return Ok(all9_9); }
-                if (TemplateID == 11) { var all10 = formService.GetSampleID10(SavedformID); return Ok(all10); }
+               var all = formService.GetRecords(TemplateID,SavedformID, SectionID);
+                //return Ok(all);
+                string[] s = all.Select(p => p.Items).ToArray();
+                //string[] s = all.result.Select(p => p.Items).ToArray();
+                string jsonResponse = s[0];
+                dynamic parsedJson = JsonConvert.DeserializeObject(jsonResponse);
+                //return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
 
-                var all = formService.GetSampleID1(SavedformID);
-                return Ok(all);
+                return Ok(parsedJson);
             }
             catch (Exception ex)
             {
@@ -152,6 +179,8 @@ namespace KU.WebAPI.Controllers
             }
 
         }
+
+
         [HttpGet("Questionnaire9")]
         public IActionResult GetSampleIDAll9([FromQuery] Int32 SavedformID)
         {
@@ -510,11 +539,11 @@ namespace KU.WebAPI.Controllers
         // GET: api/form/templates
         [HttpGet("templates")]
         // [Authorize(Authorization.Policies.ViewAllUsersPolicy)]
-        public IActionResult GetTemplates()
+        public IActionResult GetTemplates(string UserName)
         {
             try
             {
-                var all = formService.GetAllTemplates();
+                var all = formService.GetAllTemplates(UserName);
                 return Ok(all);
             }
             catch (Exception ex)

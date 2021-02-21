@@ -16,7 +16,7 @@ namespace KU.Services.Interfaces
         // user module end
         IEnumerable<SavedFormViewModel> GetAllSavedForms();
         
-        IEnumerable<Template> GetAllTemplates();
+        IEnumerable<Template> GetAllTemplates(string UserName);
         IEnumerable<CountryMaster> GetCountries(string CountryName);
         CountryWrap GetCountries1(string CountryName);
         IEnumerable<SavedFormViewModel> GetSavedFormByID(Int32 TemplateID, Int32 SavedFormID, Int32 orderby, Int32 sortorder ,Int32 pagesize, Int32 pagenumber, string filter);
@@ -47,6 +47,7 @@ namespace KU.Services.Interfaces
         IEnumerable<Questionnaire9> GetSampleID9(Int32 SampleID);
         IEnumerable<Questionnaire9_9> GetSampleID9_9(Int32 SampleID);
         IEnumerable<Questionnaire10> GetSampleID10(Int32 SampleID);
+        IEnumerable<Questionnaire12> GetSampleID12(Int32 SampleID);
 
         IEnumerable<Questionnaire1> GetSampleID1(Int32 SampleID);
         IEnumerable<Questionnaire1> GetSampleID(Int32 SampleID, Int32 TemplateID);
@@ -57,6 +58,11 @@ namespace KU.Services.Interfaces
 
         //TotalRecordsWrap GetReportTotal(long TemplateID, string SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
         IEnumerable<TotalRecords> GetReportTotal(long TemplateID, string SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
+
+        //Common Procedure
+        IEnumerable<GenericResult> GetRecords(Int32 TemplateID, Int32 SavedFormID, Int32 SectionID);
+        GenericResultWrap GetReportCommon(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
+
         QuestionnaireWrap GetReport(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
      //   Common GetReportaa(long TemplateID, string SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
         QuestionnaireWrap2 GetReport2(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
@@ -70,6 +76,7 @@ namespace KU.Services.Interfaces
         QuestionnaireWrap9 GetReport9(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
         QuestionnaireWrap9_9 GetReport9_9(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
         QuestionnaireWrap10 GetReport10(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
+        QuestionnaireWrap12 GetReport12(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter);
 
         long InsertSavedForm(SavedFormViewModel model );
         long UpdateSavedForm(SavedFormViewModel model);

@@ -22,3 +22,4 @@ C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\obj\Release\netcoreapp2.2\KU.WebAPI
 C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\obj\Release\netcoreapp2.2\KU.WebAPI.dll
 C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\obj\Release\netcoreapp2.2\KU.WebAPI.pdb
 C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\obj\Release\netcoreapp2.2\KU.WebAPI.genruntimeconfig.cache
+C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\bin\Release\netcoreapp2.2\Properties\ServiceDependencies\KUWebAPI - Web Deploy\profile.arm.json

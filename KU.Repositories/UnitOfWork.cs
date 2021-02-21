@@ -49,6 +49,7 @@ namespace KU.Repositories
       //  IQuestionnaire7Repository _questionnaire7;
       //  IQuestionnaire8Repository _questionnaire8;
         ITotalRecordsRepository _totalRecords;
+        IGenericResultRepository _GenericResult;
 
         //public IAspNetUsersRepository AspNetUsers
         //{
@@ -94,6 +95,19 @@ namespace KU.Repositories
                 return _totalRecords;
             }
         }
+
+        public IGenericResultRepository GenericResult
+        {
+            get
+            {
+                if (_GenericResult == null)
+                    _GenericResult = new GenericResultRepository(_context);
+
+                return _GenericResult;
+            }
+        }
+
+
 
         public ICountryMasterRepository CountryMaster
         {

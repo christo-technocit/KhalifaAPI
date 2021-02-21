@@ -43,6 +43,7 @@ namespace KU.Repositories
         public DbSet<Questionnaire9> Questionnaire9 { get; set; }
         public DbSet<Questionnaire9_9> Questionnaire9_9 { get; set; }
         public DbSet<Questionnaire10> Questionnaire10 { get; set; }
+        public DbSet<Questionnaire12> Questionnaire12 { get; set; }
 
         public DbSet<TotalRecords> Totalrecords { get; set; }
 
@@ -68,13 +69,15 @@ namespace KU.Repositories
         public DbSet<Q9ViewModel> Q9ViewModel { get; set; }
         public DbSet<Q9_9ViewModel> Q9_9ViewModel { get; set; }
         public DbSet<Q10ViewModel> Q10ViewModel { get; set; }
+        public DbSet<Q12ViewModel> Q12ViewModel { get; set; }
 
         // public DbSet<SP_GETDATA> SP_GETDATA { get;  }
 
         public DbSet<CountryMaster> CountryMaster { get; set; }
+        public DbSet<GenericResult> GenericResult { get; set; }
 
 
-       // public DbSet<Common> Common { get; set; }
+        // public DbSet<Common> Common { get; set; }
 
 
 

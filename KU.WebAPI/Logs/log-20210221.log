@@ -1,0 +1,119 @@
+2021-02-21T10:23:29.2792647+04:00 80000128-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/   (ca22a1cb)
+2021-02-21T10:23:30.4677943+04:00 8000012a-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/index.html   (ca22a1cb)
+2021-02-21T10:23:30.5075158+04:00 80000128-0000-fd00-b63f-84710c7967bb [INF] Request finished in 1207.8734ms 301  (791a596a)
+2021-02-21T10:23:30.7371417+04:00 8000012a-0000-fd00-b63f-84710c7967bb [INF] Request finished in 269.2686ms 200 text/html (791a596a)
+2021-02-21T10:23:30.8589758+04:00 8000012c-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/swagger-ui.css   (ca22a1cb)
+2021-02-21T10:23:30.8622344+04:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/swagger-ui-bundle.js   (ca22a1cb)
+2021-02-21T10:23:30.8640270+04:00 80000002-0000-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/swagger-ui-standalone-preset.js   (ca22a1cb)
+2021-02-21T10:23:30.9314770+04:00 8000012c-0000-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2021-02-21T10:23:30.9460265+04:00 80000002-0000-fa00-b63f-84710c7967bb [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2021-02-21T10:23:30.9580456+04:00 8000012c-0000-fd00-b63f-84710c7967bb [INF] Request finished in 102.4077ms 200 text/css (791a596a)
+2021-02-21T10:23:30.9599148+04:00 80000002-0000-fa00-b63f-84710c7967bb [INF] Request finished in 112.1785ms 200 application/javascript (791a596a)
+2021-02-21T10:23:31.0020545+04:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2021-02-21T10:23:31.0097582+04:00 80000002-0000-fb00-b63f-84710c7967bb [INF] Request finished in 160.3244ms 200 application/javascript (791a596a)
+2021-02-21T10:23:31.3947345+04:00 80000004-0000-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/swagger/v1/swagger.json   (ca22a1cb)
+2021-02-21T10:23:31.4324717+04:00 800001ab-0006-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/favicon-32x32.png   (ca22a1cb)
+2021-02-21T10:23:31.4388922+04:00 800001ab-0006-fc00-b63f-84710c7967bb [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2021-02-21T10:23:31.4446481+04:00 800001ab-0006-fc00-b63f-84710c7967bb [INF] Request finished in 11.4386ms 200 image/png (791a596a)
+2021-02-21T10:23:31.5862099+04:00 80000004-0000-fb00-b63f-84710c7967bb [INF] Request finished in 191.4023ms 200 application/json;charset=utf-8 (791a596a)
+2021-02-21T10:24:16.4448005+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44317/api/Form/AddForms application/json-patch+json 221 (ca22a1cb)
+2021-02-21T10:24:16.4510745+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2021-02-21T10:24:16.6420954+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)"' (500cc934)
+2021-02-21T10:24:16.7147173+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"AddSavedForm\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddSavedForm(KU.Services.Interfaces.SavedFormViewModel)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2021-02-21T10:24:16.7229588+04:00 80000197-0002-fc00-b63f-84710c7967bb [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2021-02-21T10:24:16.7266600+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2021-02-21T10:24:16.7827114+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2021-02-21T10:24:24.7297568+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2021-02-21T10:24:26.0916102+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("116"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 250), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [SavedForm] ([CreatedBy], [CreatedDate], [SavedFormName], [TemplateID], [UpdateDate], [UpdatedBy])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [SavedFormID]
+FROM [SavedForm]
+WHERE @@ROWCOUNT = 1 AND [SavedFormID] = scope_identity();" (0723d8ff)
+2021-02-21T10:24:31.0965807+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 14303.0502ms. (50a9e262)
+2021-02-21T10:24:31.1077319+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Int64"'. (8a1b66c8)
+2021-02-21T10:24:31.1186069+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)" in 14396.7825ms (afa2e885)
+2021-02-21T10:24:31.1220274+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.AddSavedForm (KU.WebAPI)"' (99874f2b)
+2021-02-21T10:24:31.1258139+04:00 80000197-0002-fc00-b63f-84710c7967bb [INF] Request finished in 14682.4995ms 200 application/json; charset=utf-8 (791a596a)
+2021-02-21T10:28:50.8408314+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44317/api/Form/Addformattributevalue application/json-patch+json 529 (ca22a1cb)
+2021-02-21T10:28:50.8446421+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2021-02-21T10:28:50.8555910+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (500cc934)
+2021-02-21T10:28:50.8676140+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"AddFormAttributeValues\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddFormAttributeValues(System.Collections.Generic.List`1[KU.Services.Interfaces.FormAttributeValueViewModel])" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2021-02-21T10:28:50.8714056+04:00 8000019b-0002-fc00-b63f-84710c7967bb [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2021-02-21T10:28:50.8749133+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2021-02-21T10:28:50.8825879+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2021-02-21T10:28:55.2717240+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2021-02-21T10:28:56.1235399+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("439"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (Size = 4000), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (Size = 4000), @p7='?' (DbType = Int64), @p8='?' (DbType = Int64), @p9='?' (Size = 4000), @p10='?' (DbType = Int64), @p11='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([FormAttributeValueID] bigint, [_Position] [int]);
+MERGE [FormAttributeValue] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2),
+(@p9, @p10, @p11, 3)) AS i ([AttributeValue], [FormAttributeID], [SavedFormID], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([AttributeValue], [FormAttributeID], [SavedFormID])
+VALUES (i.[AttributeValue], i.[FormAttributeID], i.[SavedFormID])
+OUTPUT INSERTED.[FormAttributeValueID], i._Position
+INTO @inserted0;
+
+SELECT [t].[FormAttributeValueID] FROM [FormAttributeValue] t
+INNER JOIN @inserted0 i ON ([t].[FormAttributeValueID] = [i].[FormAttributeValueID])
+ORDER BY [i].[_Position];" (0723d8ff)
+2021-02-21T10:28:58.7614085+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7871.3523ms. (50a9e262)
+2021-02-21T10:28:58.7665520+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Boolean"'. (8a1b66c8)
+2021-02-21T10:28:58.7718545+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)" in 7899.887ms (afa2e885)
+2021-02-21T10:28:58.7768099+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.AddFormAttributeValues (KU.WebAPI)"' (99874f2b)
+2021-02-21T10:28:58.7801323+04:00 8000019b-0002-fc00-b63f-84710c7967bb [INF] Request finished in 7940.1114ms 200 application/json; charset=utf-8 (791a596a)
+2021-02-21T10:29:47.9016719+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Form/GetDocuments?SavedFormID=5528   (ca22a1cb)
+2021-02-21T10:29:47.9064583+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.GetDocuments (KU.WebAPI)"' (500cc934)
+2021-02-21T10:29:47.9116761+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetDocuments\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetDocuments(Int32)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2021-02-21T10:29:47.9170183+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.GetDocuments (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2021-02-21T10:29:57.3677128+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2021-02-21T10:29:58.0281593+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("311"ms) [Parameters=["@__SavedFormID_0='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [R].[FormAttributeValueID], [R].[AttributeValue], [R].[SavedFormID]
+FROM [formAttributeValue_Files] AS [R]
+WHERE [R].[SavedFormID] = @__SavedFormID_0
+ORDER BY [R].[SavedFormID]" (0723d8ff)
+2021-02-21T10:29:59.5135371+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.GetDocuments (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 11591.7666ms. (50a9e262)
+2021-02-21T10:29:59.5172991+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KU.Repositories.Models.FormAttributeValue_files, KU.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-02-21T10:29:59.5224613+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.GetDocuments (KU.WebAPI)" in 11607.2119ms (afa2e885)
+2021-02-21T10:29:59.5257477+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.GetDocuments (KU.WebAPI)"' (99874f2b)
+2021-02-21T10:29:59.5289356+04:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Request finished in 11629.4178ms 200 application/json; charset=utf-8 (791a596a)
+2021-02-21T10:30:13.8273581+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Form/Questionnaire?SavedformID=5528   (ca22a1cb)
+2021-02-21T10:30:13.8327837+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.FormController.GetRecords (KU.WebAPI)"' (500cc934)
+2021-02-21T10:30:13.8397852+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Route matched with "{action = \"GetRecords\", controller = \"Form\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetRecords(Int32, Int32, Int32)" on controller "KU.WebAPI.Controllers.FormController" ("KU.WebAPI"). (122b2fdf)
+2021-02-21T10:30:13.8441486+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.FormController.GetRecords (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2021-02-21T10:30:18.4917821+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2021-02-21T10:30:18.6310399+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Executed DbCommand ("109"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""sp_getrecordsNew @p0,@p1,@p2" (0723d8ff)
+2021-02-21T10:30:20.8999288+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.FormController.GetRecords (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7050.5766ms. (50a9e262)
+2021-02-21T10:30:20.9035260+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"Newtonsoft.Json.Linq.JArray"'. (8a1b66c8)
+2021-02-21T10:30:20.9091149+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.FormController.GetRecords (KU.WebAPI)" in 7065.6944ms (afa2e885)
+2021-02-21T10:30:20.9124180+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.FormController.GetRecords (KU.WebAPI)"' (99874f2b)
+2021-02-21T10:30:20.9157969+04:00 800000fe-0006-f900-b63f-84710c7967bb [INF] Request finished in 7089.487ms 200 application/json; charset=utf-8 (791a596a)
+2021-02-21T10:33:56.3508862+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Report/Reports?TemplateID=13   (ca22a1cb)
+2021-02-21T10:33:56.3563079+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)"' (500cc934)
+2021-02-21T10:33:56.3653702+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetReport\", controller = \"Report\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetReport(Int64, Int64, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, Int32, Int32, Int32, Int32, System.String)" on controller "KU.WebAPI.Controllers.ReportController" ("KU.WebAPI"). (122b2fdf)
+2021-02-21T10:33:56.3689928+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2021-02-21T10:33:56.3738885+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2021-02-21T10:34:06.0462007+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("354"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?', @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?', @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SP_GETDATANew @p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15" (0723d8ff)
+2021-02-21T10:34:06.1111463+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 9723.6828ms. (50a9e262)
+2021-02-21T10:34:06.1303462+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"Newtonsoft.Json.Linq.JObject"'. (8a1b66c8)
+2021-02-21T10:34:06.1467112+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)" in 9773.2876ms (afa2e885)
+2021-02-21T10:34:06.1524267+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.ReportController.GetReport (KU.WebAPI)"' (99874f2b)
+2021-02-21T10:34:06.1555975+04:00 800001b3-0006-fc00-b63f-84710c7967bb [INF] Request finished in 9805.2865ms 200 application/json; charset=utf-8 (791a596a)
+2021-02-21T10:34:17.4055935+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44317/api/Report/ReportTotal?TemplateID=13   (ca22a1cb)
+2021-02-21T10:34:17.4123337+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Executing endpoint '"KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)"' (500cc934)
+2021-02-21T10:34:17.4181566+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Route matched with "{action = \"GetReportTotal\", controller = \"Report\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetReportTotal(Int64, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, Int32, Int32, Int32, Int32, System.String)" on controller "KU.WebAPI.Controllers.ReportController" ("KU.WebAPI"). (122b2fdf)
+2021-02-21T10:34:17.4218473+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Executing action method "KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)" - Validation state: Valid (dad538d7)
+2021-02-21T10:34:17.4269355+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=KU.WebAPI " (9958f5bb)
+2021-02-21T10:34:17.6984664+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Executed DbCommand ("252"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64), @p5='?' (Size = 4000), @p6='?', @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?', @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SP_GETDATA_Total @p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15" (0723d8ff)
+2021-02-21T10:34:17.7369512+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Executed action method "KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 309.8974ms. (50a9e262)
+2021-02-21T10:34:17.7411019+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[KU.Repositories.Models.TotalRecords, KU.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-02-21T10:34:17.7480336+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Executed action "KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)" in 325.6448ms (afa2e885)
+2021-02-21T10:34:17.7517132+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Executed endpoint '"KU.WebAPI.Controllers.ReportController.GetReportTotal (KU.WebAPI)"' (99874f2b)
+2021-02-21T10:34:17.7560121+04:00 80000093-0004-f500-b63f-84710c7967bb [INF] Request finished in 351.1689ms 200 application/json; charset=utf-8 (791a596a)

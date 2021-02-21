@@ -25,10 +25,9 @@ namespace KU.Services.Implementations
             
             return mapper.Map<IEnumerable<SavedFormViewModel>>(all);
         }
-        public IEnumerable<Template> GetAllTemplates()
+        public IEnumerable<Template> GetAllTemplates(string UserName)
         {
-            var all = unitOfWork.Templates.
-                GetAllIncludedData();
+            var all = unitOfWork.Templates.GetAllIncludedData(UserName);
        return mapper.Map<IEnumerable<Template>>(all);
         }
 
@@ -146,11 +145,17 @@ namespace KU.Services.Implementations
             return mapper.Map<IEnumerable<Questionnaire1>>(all);
         }
 
-       // public TotalRecordsWrap GetReportTotal(long TemplateID, string SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter)
-      //  {
-      //      var all = unitOfWork.questionnaire.GetReportTotal(TemplateID, SectionID, AttributeName, BeginPeriod, EndPeriod, CollectedBy, CollectedPoint, Nationality, Gender, Diabetes, SampleID, orderby, sortorder, pagesize, pagenumber, filter);
-      //      return mapper.Map<TotalRecordsWrap>(new TotalRecordsWrap { result = all });
-      //  }
+        public IEnumerable<GenericResult> GetRecords(Int32 TemplateID,Int32 SavedFormID, Int32 SectionID)
+        {
+            var all = unitOfWork.GenericResult.GetRecords(TemplateID,SavedFormID, SectionID);
+            return mapper.Map<IEnumerable<GenericResult>>(all);
+        }
+
+        // public TotalRecordsWrap GetReportTotal(long TemplateID, string SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter)
+        //  {
+        //      var all = unitOfWork.questionnaire.GetReportTotal(TemplateID, SectionID, AttributeName, BeginPeriod, EndPeriod, CollectedBy, CollectedPoint, Nationality, Gender, Diabetes, SampleID, orderby, sortorder, pagesize, pagenumber, filter);
+        //      return mapper.Map<TotalRecordsWrap>(new TotalRecordsWrap { result = all });
+        //  }
         public IEnumerable<TotalRecords> GetReportTotal(long TemplateID, string SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter)
         {
      
@@ -158,6 +163,17 @@ namespace KU.Services.Implementations
             return mapper.Map<IEnumerable<TotalRecords>>(all);
       
         }
+
+
+        // Common procedure for reports
+        public GenericResultWrap GetReportCommon(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter)
+        {
+            var all = unitOfWork.GenericResult.GetReportCommon(TemplateID, SectionID, AttributeName, BeginPeriod, EndPeriod, CollectedBy, CollectedPoint, Nationality, Gender, Diabetes, SampleID, orderby, sortorder, pagesize, pagenumber, filter);
+            return mapper.Map<GenericResultWrap>(new GenericResultWrap { result = all });
+        }
+
+        //
+
 
         //public IEnumerable<Questionnaire> GetReport(long TemplateID, string SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber)
         //{
@@ -239,6 +255,12 @@ namespace KU.Services.Implementations
             return mapper.Map<QuestionnaireWrap10>(new QuestionnaireWrap10 { result = all });
         }
 
+        public QuestionnaireWrap12 GetReport12(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter)
+        {
+            var all = unitOfWork.questionnaire.GetReport12(TemplateID, SectionID, AttributeName, BeginPeriod, EndPeriod, CollectedBy, CollectedPoint, Nationality, Gender, Diabetes, SampleID, orderby, sortorder, pagesize, pagenumber, filter);
+            return mapper.Map<QuestionnaireWrap12>(new QuestionnaireWrap12 { result = all });
+        }
+
 
         public IEnumerable<Questionnaire4> GetSampleID4(Int32 SampleID)
         {
@@ -284,6 +306,11 @@ namespace KU.Services.Implementations
         {
             var all = unitOfWork.questionnaire.GetSampleID10(SampleID);
             return mapper.Map<IEnumerable<Questionnaire10>>(all);
+        }
+        public IEnumerable<Questionnaire12> GetSampleID12(Int32 SampleID)
+        {
+            var all = unitOfWork.questionnaire.GetSampleID12(SampleID);
+            return mapper.Map<IEnumerable<Questionnaire12>>(all);
         }
 
 

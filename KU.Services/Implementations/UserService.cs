@@ -35,6 +35,26 @@ namespace KU.Services.Implementations
 
         /// <summary>
         /// /////////////////////////////////////////////////////
+        /// 
+        public IEnumerable<GenericResult> GetMenu(string UserName)
+        {
+            var all = unitOfWork.GenericResult.GetMenu(UserName);
+
+            return mapper.Map<IEnumerable<GenericResult>>(all);
+        }
+        public IEnumerable<GenericResult> GetTemplate(string UserName)
+        {
+            var all = unitOfWork.GenericResult.GetTemplate(UserName);
+
+            return mapper.Map<IEnumerable<GenericResult>>(all);
+        }
+        public IEnumerable<GenericResult> GetReportTemplate(string UserName)
+        {
+            var all = unitOfWork.GenericResult.GetReportTemplate(UserName);
+
+            return mapper.Map<IEnumerable<GenericResult>>(all);
+        }
+
         public IEnumerable<ApplicationUsers> GetAllIncludedDatas(Int32 OrderBy, Int32 SortOrder, Int32 PageSize, Int32 PageNumber, string Filter)
         {
             var all = unitOfWork.ApplicationUsers.GetAllIncludedDatas(OrderBy, SortOrder, PageSize, PageNumber, Filter);

@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using KU.Repositories.Models;
 using KU.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace KU.WebAPI.Controllers
 {
@@ -77,7 +79,50 @@ namespace KU.WebAPI.Controllers
             return Ok(id);
         }
 
+        [HttpGet("GetMenu")]
+        public async Task<IActionResult> GetMenu([FromQuery] string UserName)
 
+        {
+
+            var all = UserService.GetMenu(UserName);
+
+            string[] s = all.Select(p => p.Items).ToArray();
+            string jsonResponse = s[0];
+            dynamic parsedJson = JsonConvert.DeserializeObject(jsonResponse);
+            //return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
+
+            return Ok(parsedJson);
+        }
+
+        [HttpGet("GetTemplate")]
+        public async Task<IActionResult> GetTemplate([FromQuery] string UserName)
+
+        {
+
+            var all = UserService.GetTemplate(UserName);
+
+            string[] s = all.Select(p => p.Items).ToArray();
+            string jsonResponse = s[0];
+            dynamic parsedJson = JsonConvert.DeserializeObject(jsonResponse);
+            //return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
+
+            return Ok(parsedJson);
+        }
+
+        [HttpGet("GetReportTemplate")]
+        public async Task<IActionResult> GetReportTemplate([FromQuery] string UserName)
+
+        {
+
+            var all = UserService.GetReportTemplate(UserName);
+
+            string[] s = all.Select(p => p.Items).ToArray();
+            string jsonResponse = s[0];
+            dynamic parsedJson = JsonConvert.DeserializeObject(jsonResponse);
+            //return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
+
+            return Ok(parsedJson);
+        }
 
         // GET: api/Users/5
         //[HttpGet("{id}")]

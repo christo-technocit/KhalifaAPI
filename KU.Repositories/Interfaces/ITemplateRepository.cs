@@ -7,6 +7,7 @@ namespace KU.Repositories.Interfaces
 {
     public interface ITemplateRepository : IGenericRepository<Template>
     {
-        IEnumerable<Template> GetAllIncludedData();
+        IEnumerable<Template> GetAllIncludedData(string UserName);
+      
     }
 }

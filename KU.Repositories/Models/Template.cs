@@ -17,5 +17,12 @@ namespace KU.Repositories.Models
 
         [StringLength(250)]
         public string CSS { get; set; }
+
+        public string root { get; set; }
+        public string icon { get; set; }
+        public string bullet { get; set; }
+        public string Link { get; set; }
+
+
     }
 }

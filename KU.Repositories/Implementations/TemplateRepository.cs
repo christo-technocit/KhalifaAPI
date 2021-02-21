@@ -14,15 +14,18 @@ namespace KU.Repositories.Implementations
         public TemplateRepository(DbContext context) : base(context)
         { }
 
-        public IEnumerable<Template> GetAllIncludedData()
+        public IEnumerable<Template> GetAllIncludedData(string UserName)
         {
             //return _appContext.Templates
             //    .OrderBy(c => c.TemplateID)
             //    .ToList();
+ 
             return _appContext.Template
                 .OrderBy(c => c.TemplateID)
                 .ToList();
+        
         }
+
 
         private ApplicationDbContext _appContext => (ApplicationDbContext)_context;
     }

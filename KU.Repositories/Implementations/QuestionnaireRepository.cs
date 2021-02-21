@@ -178,6 +178,20 @@ namespace KU.Repositories.Implementations
             }
         }
 
+        //  Questionnaire 12 - COVID-19 V2
+        public IEnumerable<Questionnaire12> GetSampleID12(Int32 SavedFormID)
+        {
+            if (SavedFormID == 0)
+            {
+                return _appContext.Questionnaire12.FromSql("sp_getrecords {0},{1}", 13, 0).ToList();
+            }
+            else
+            {
+                return _appContext.Questionnaire12.FromSql("sp_getrecords {0},{1},{2}", 13, 0, SavedFormID).ToList();
+            }
+        }
+
+
         public IEnumerable<Q1ViewModel> GetReport(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter)
         {
             if (string.IsNullOrEmpty(filter))
@@ -508,6 +522,36 @@ namespace KU.Repositories.Implementations
             return TR;
 
         }
+
+
+        // COVID-19 V2
+        public IEnumerable<Q12ViewModel> GetReport12(long TemplateID, long SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter)
+        {
+            if (string.IsNullOrEmpty(filter))
+            {
+                filter = "";
+            }
+
+            if (SectionID.ToString() is null) { SectionID = 0; }
+            if (BeginPeriod is null) { BeginPeriod = "2000-01-01"; }
+            if (EndPeriod is null) { EndPeriod = DateTime.Now.ToString("yyyy-MM-dd"); }
+            if (CollectedBy is null) { CollectedBy = ""; }
+            if (CollectedPoint is null) { CollectedPoint = ""; }
+            if (Gender is null) { Gender = ""; }
+            if (Diabetes is null) { Diabetes = ""; }
+            if (SampleID is null) { SampleID = ""; }
+
+            // if (pagenumber == 0) { pagenumber = 1; }
+            if (pagesize == 0) { pagesize = 10; }
+            if (orderby == 0) { orderby = 1; }
+
+
+            List<Q12ViewModel> TR = _appContext.Q12ViewModel.FromSql("SP_GETDATA {0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15}", orderby, sortorder, pagesize, pagenumber, TemplateID, SectionID, AttributeName, BeginPeriod, EndPeriod, CollectedBy, CollectedPoint, Nationality, Gender, Diabetes, SampleID, filter)
+              .ToList();
+            return TR;
+
+        }
+
 
         public IEnumerable<TotalRecords> GetReportTotal(long TemplateID, string SectionID, string AttributeName, string BeginPeriod, string EndPeriod, string CollectedBy, string CollectedPoint, string Nationality, string Gender, string Diabetes, string SampleID, Int32 orderby, Int32 sortorder, Int32 pagesize, Int32 pagenumber, string filter)
         {

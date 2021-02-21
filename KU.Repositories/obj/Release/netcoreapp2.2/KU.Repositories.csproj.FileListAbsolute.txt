@@ -6,3 +6,4 @@ C:\TCIT\Khalifa University\Khalifa\KU.Repositories\obj\Release\netcoreapp2.2\KU.
 C:\TCIT\Khalifa University\Khalifa\KU.Repositories\obj\Release\netcoreapp2.2\KU.Repositories.csproj.CoreCompileInputs.cache
 C:\TCIT\Khalifa University\Khalifa\KU.Repositories\obj\Release\netcoreapp2.2\KU.Repositories.dll
 C:\TCIT\Khalifa University\Khalifa\KU.Repositories\obj\Release\netcoreapp2.2\KU.Repositories.pdb
+C:\TCIT\Khalifa University\Khalifa\KU.Repositories\obj\Release\netcoreapp2.2\KU.Repositories.csprojAssemblyReference.cache

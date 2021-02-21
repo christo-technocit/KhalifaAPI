@@ -45,6 +45,7 @@ C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\bin\Debug\netcoreapp2.2\appsettings
 C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\bin\Debug\netcoreapp2.2\appsettings.json
 C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\bin\Debug\netcoreapp2.2\libman.json
 C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\bin\Debug\netcoreapp2.2\Properties\ServiceDependencies\KUWebAPI - Web Deploy\profile.arm.json
 C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\bin\Debug\netcoreapp2.2\KU.WebAPI.deps.json
 C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\bin\Debug\netcoreapp2.2\KU.WebAPI.runtimeconfig.json
 C:\TCIT\Khalifa University\Khalifa\KU.WebAPI\bin\Debug\netcoreapp2.2\KU.WebAPI.runtimeconfig.dev.json
