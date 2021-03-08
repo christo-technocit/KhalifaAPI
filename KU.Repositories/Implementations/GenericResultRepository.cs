@@ -38,6 +38,11 @@ namespace KU.Repositories.Implementations
 
 
         //}
+        // Change Password
+        public IEnumerable<GenericResult> ChangePassword(string UserName, string Password)
+        {
+            return _appContext.GenericResult.FromSql("sp_ChangePassword {0},{1}", UserName, Password).ToList();
+        }
 
         public IEnumerable<GenericResult> GetMenu(string UserName)
         {
@@ -101,6 +106,9 @@ namespace KU.Repositories.Implementations
         }
 
         //For Reports end
+
+
+
         private ApplicationDbContext _appContext => (ApplicationDbContext)_context;
     }
 }

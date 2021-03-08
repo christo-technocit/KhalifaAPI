@@ -11,6 +11,7 @@ namespace KU.Services.Interfaces
         // user module begin
         IEnumerable<GenericResult> GetMenu(string UserName);
         IEnumerable<GenericResult> GetTemplate(string UserName);
+        IEnumerable<GenericResult> ChangePassword(string UserName, string Password);
         IEnumerable<GenericResult> GetReportTemplate(string UserName);
         IEnumerable<ApplicationUser> GetAllIncludedData(Int32 OrderBy, Int32 SortOrder, Int32 PageSize, Int32 PageNumber, string Filter);
        // IEnumerable<ApplicationUsers> GetUser(string UserName, string Password);
@@ -23,6 +24,8 @@ namespace KU.Services.Interfaces
         string InsertUser(ApplicationUsersViewModel model);
         string UpdateUser(ApplicationUsersViewModel model);
         string DeleteUser(ApplicationUsersViewModel model);
+
+      
 
         // user module end
 

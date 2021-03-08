@@ -36,6 +36,13 @@ namespace KU.Services.Implementations
         /// <summary>
         /// /////////////////////////////////////////////////////
         /// 
+
+        public IEnumerable<GenericResult> ChangePassword(string UserName, string Password)
+        {
+            var all = unitOfWork.GenericResult.ChangePassword(UserName, Password);
+
+            return mapper.Map<IEnumerable<GenericResult>>(all);
+        }
         public IEnumerable<GenericResult> GetMenu(string UserName)
         {
             var all = unitOfWork.GenericResult.GetMenu(UserName);
@@ -98,6 +105,8 @@ namespace KU.Services.Implementations
             unitOfWork.SaveChanges();
             return entity.UserId;
         }
+
+
 
         // user module end
 
