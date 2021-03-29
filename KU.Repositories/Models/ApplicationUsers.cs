@@ -32,7 +32,7 @@ namespace KU.Repositories.Models
       //  public string facebook { get; set; }
       //  public string twitter { get; set; }
       //  public string Instagram { get; set; }
-      //  public string SecurityStamp { get; set; }
+        public string SecurityStamp { get; set; }
       //  public Int32 IsActive { get; set; }
       // public string CreatedBy { get; set; }
       //  public string UpdatedBy { get; set; }

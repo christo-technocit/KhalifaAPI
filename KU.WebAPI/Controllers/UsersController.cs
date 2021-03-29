@@ -124,6 +124,21 @@ namespace KU.WebAPI.Controllers
             return Ok(parsedJson);
         }
 
+        [HttpGet("ChangePassword")]
+        public async Task<IActionResult> ChangePassword([FromQuery] string UserName, string Password)
+
+        {
+
+            var all = UserService.ChangePassword(UserName,Password);
+
+            string[] s = all.Select(p => p.Items).ToArray();
+            string jsonResponse = s[0];
+            dynamic parsedJson = JsonConvert.DeserializeObject(jsonResponse);
+            //return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
+
+            return Ok(parsedJson);
+        }
+
         // GET: api/Users/5
         //[HttpGet("{id}")]
         //public async Task<ActionResult<AspNetUsers>> GetAspNetUsers(string id)

@@ -23,7 +23,8 @@ using KU.Services.ViewModels;
 using KU.WebAPI.Helpers;
 using Swashbuckle.AspNetCore.Swagger;
 using Newtonsoft.Json.Serialization;
-
+using System.Net.Mail;
+using System.Net;
 
 namespace KU.WebAPI
 {
@@ -50,6 +51,36 @@ namespace KU.WebAPI
             IConfigurationSection configurationSection = Configuration.GetSection("AppConfig").GetSection("FilePath");
 
 
+            // SMTP - 09/03/2021 begin
+            services.AddScoped<SmtpClient>((serviceProvider) =>
+            {
+                var config = serviceProvider.GetRequiredService<IConfiguration>();
+                return new SmtpClient()
+                {
+                    Host = config.GetValue<String>("Email:Smtp:Host"),
+                    Port = config.GetValue<int>("Email:Smtp:Port"),
+                    Credentials = new NetworkCredential(
+                            config.GetValue<String>("Email:Smtp:Username"),
+                            config.GetValue<String>("Email:Smtp:Password")
+
+                        )
+              
+                };
+            });
+            services.AddMvc();
+            //            augustine @technocit.com
+            // P: TCIT2019$
+            //http://webmail.technocit.com
+
+            //            POP3
+            //host7.server.ae(incoming / outgoing)
+            //remember password
+            //outgoing require authentication
+
+            //incomoing port: 110
+            //outgoing port : 587(SSL)
+
+            // SMTP - 09/03/2021 end
 
             // add ApplicationDbContext
             services.AddDbContext<Repositories.ApplicationDbContext>(options =>
